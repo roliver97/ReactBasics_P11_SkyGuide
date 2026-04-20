@@ -1,0 +1,43 @@
+header {
+  display: flex;
+  padding: var(--rtc-padding-s) 0;
+  background-color: var(--rtc-bgColorOverlay);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+header .active {
+  font-weight: 600;
+  border-bottom: 1px solid var(--rtc-color-3);
+}
+
+header .wrapper {
+  align-items: center;
+}
+
+header .app-logo-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--rtc-gap-xs);
+}
+
+header .app-logo-icon {
+  width: 30px;
+}
+
+header .app-logo-title {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--rtc-color-3);
+}
+
+header .app-logo-subtitle {
+  font-size: 0.6rem;
+  font-weight: 400;
+}
+
+header nav {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+}

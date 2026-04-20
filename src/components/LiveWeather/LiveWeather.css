@@ -1,0 +1,33 @@
+.weather-widget {
+  z-index: 1;
+
+  background-color: color-mix(in srgb, var(--rtc-color-3), transparent 30%);
+  padding: var(--rtc-padding-l);
+  border: 2px solid var(--rtc-highlightColorSecondary);
+
+  gap: var(--rtc-gap-l);
+
+  width: 100%;
+}
+
+.weather-widget h3 {
+  color: var(--rtc-color-6);
+}
+
+div.weather-info {
+  flex-direction: row;
+  width: 80%;
+  justify-content: space-around;
+}
+
+div.weather-info div {
+  gap: var(--rtc-gap-m);
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.weather-temp {
+  font-weight: 800;
+  font-size: 1.8rem;
+  letter-spacing: 2px;
+}

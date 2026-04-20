@@ -1,0 +1,23 @@
+footer .wrapper {
+  display: flex;
+  justify-content: center;
+  gap: var(--rtc-gap-xl);
+  padding: var(--rtc-padding-m) 0;
+}
+
+.footer-nav-div {
+  display: flex;
+  gap: var(--rtc-gap-xs);
+}
+
+footer a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+}
+
+.footer-github-icon {
+  width: 20px;
+  height: 20px;
+}

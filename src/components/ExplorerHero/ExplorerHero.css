@@ -1,0 +1,80 @@
+main:has(.explorer-hero) {
+  padding: 10px 0;
+}
+
+.explorer-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: var(--rtc-gap-m);
+  background-color: var(--rtc-bgColorOverlay);
+  padding: 100px 0;
+  width: 100%;
+  justify-self: center;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+
+  isolation: isolate;
+  /* Impide que el componente hijo .hero-text h1 > span, al tener un z-index -1, quede por debajo del background-image de #app y no sea visible */
+  /* Es decir, isolation: isolate hace que todos los z-index dentro del contenedor (en este caso .explorer-hero) omitan lo que hay fuera de él*/
+  /* Realmente le estamos diciendo: "Si así lo pido (mediante los z-index), ponme al fondo de la habitación (.explorer-hero), pero nunca al fondo del edificio (#app)"*/
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: var(--rtc-gap-l);
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  position: relative;
+  color: var(--rtc-color-3);
+  font-weight: 800;
+  text-shadow: 2px 2px 5px rgb(224, 240, 255);
+}
+
+.hero-text h1 > span {
+  font-size: 1rem;
+  position: absolute;
+  right: 50px;
+  bottom: -19px;
+  color: var(--rtc-color-1);
+  font-weight: 500;
+  text-shadow: 0px 1px 4px rgb(0, 0, 0);
+  transform: rotate(-3deg);
+  background-color: var(--rtc-color-6);
+  padding: var(--rtc-padding-xs) var(--rtc-padding-m);
+  z-index: -1;
+}
+
+.hero-text p {
+  font-size: 1.3rem;
+}
+
+.search-box {
+  width: 100%;
+
+  display: flex;
+}
+
+.search-box input {
+  flex: 1;
+  text-align: center;
+  border-radius: var(--rtc-border-radius-circle);
+  border: none;
+  outline: 1px solid var(--rtc-color-7);
+  padding: var(--rtc-padding-xs) var(--rtc-padding-m);
+  caret-color: var(--rtc-color-7);
+  color: var(--rtc-color-3);
+  font-weight: 500;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.521);
+}
+
+.search-box input:focus {
+  outline: 2px solid var(--rtc-color-7);
+}
+
+.search-box input:not(:placeholder-shown) {
+  text-align: start;
+}

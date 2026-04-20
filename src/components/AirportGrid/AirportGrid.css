@@ -1,0 +1,7 @@
+.airport-grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 2rem;
+  padding: var(--rtc-padding-m) 0;
+}

@@ -1,0 +1,512 @@
+[
+  {
+    "id": "7078065",
+    "name": "Los Llanos Airport",
+    "city": "Albacete",
+    "iata": "ABC",
+    "lat": "38.9485",
+    "lng": "-1.8635",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/04/Aeropuerto_Los_Llanos_exterior.jpg",
+    "description": "A public airport serving the city of Albacete and the Castilla-La Mancha region."
+  },
+  {
+    "id": "7078093",
+    "name": "Lanzarote Airport",
+    "city": "Arrecife",
+    "iata": "ACE",
+    "lat": "28.9455",
+    "lng": "-13.6052",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Arrecife-Airport.jpg",
+    "description": "The main gateway to the volcanic island of Lanzarote in the Canaries."
+  },
+  {
+    "id": "7078181",
+    "name": "Pablo Ruiz Picasso Airport",
+    "city": "Málaga",
+    "iata": "AGP",
+    "lat": "36.6749",
+    "lng": "-4.4991",
+    "image": "https://www.nizacars.com/imgs/aeropuerto/20190103122016-aeropuertodemalaga2.jpg",
+    "description": "The primary airport serving the Costa del Sol and southern Andalusia."
+  },
+  {
+    "id": "7078267",
+    "name": "Alicante El Altet Airport",
+    "city": "Alicante",
+    "iata": "ALC",
+    "lat": "38.2822",
+    "lng": "-0.5582",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Aeropuerto_Alicante_-_52312672018.jpg",
+    "description": "Serving the Costa Blanca, it is one of the busiest airports in eastern Spain."
+  },
+  {
+    "id": "7078618",
+    "name": "El Prat De Llobregat Airport",
+    "city": "Barcelona",
+    "iata": "BCN",
+    "lat": "41.2974",
+    "lng": "2.0833",
+    "image": "https://www.barcelona-tourist-guide.com/images/int/airport/general/L550/barcelona-airport-facilities-0800.jpg",
+    "description": "The main international hub for Catalonia and the Mediterranean coast."
+  },
+  {
+    "id": "7078766",
+    "name": "Bilbao Airport",
+    "city": "Bilbao",
+    "iata": "BIO",
+    "lat": "43.3011",
+    "lng": "-2.9106",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Aeropuerto_Bilbao_Loiu_01.jpg",
+    "description": "The most important airport in the Basque Country and northern Spain."
+  },
+  {
+    "id": "7078801",
+    "name": "Talaveral La Real Airport",
+    "city": "Badajoz",
+    "iata": "BJZ",
+    "lat": "38.8913",
+    "lng": "-6.8213",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b7/AeropuertBadajoz.JPG",
+    "description": "A dual-use airport serving the city of Badajoz and the Extremadura region."
+  },
+  {
+    "id": "7079253",
+    "name": "Castellon Airport",
+    "city": "Castellón",
+    "iata": "CDT",
+    "lat": "40.2111",
+    "lng": "0.0733",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Terminal_aeropuerto_Castell%C3%B3n.JPG",
+    "description": "The main airport serving the northern coast of the Valencian Community."
+  },
+  {
+    "id": "7080027",
+    "name": "Donostia - San Sebastian Airport",
+    "city": "San Sebastián",
+    "iata": "EAS",
+    "lat": "43.3564",
+    "lng": "-1.7906",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Txingudi_badia.jpg",
+    "description": "A scenic airport serving the province of Gipuzkoa, near the French border."
+  },
+  {
+    "id": "7080483",
+    "name": "Fuerteventura Airport",
+    "city": "Puerto del Rosario",
+    "iata": "FUE",
+    "lat": "28.4527",
+    "lng": "-13.8638",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fc/ES-fuerte-flugh-bus.jpg",
+    "description": "An international airport serving the windy island of Fuerteventura."
+  },
+  {
+    "id": "7080704",
+    "name": "La Gomera Airport",
+    "city": "Playa de Santiago",
+    "iata": "GMZ",
+    "lat": "28.0297",
+    "lng": "-17.2144",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/51/La_Gomera_airport_-_panoramio.jpg",
+    "description": "A quiet airport connecting the unique island of La Gomera with the rest of the Canaries."
+  },
+  {
+    "id": "7080768",
+    "name": "Girona-Costa Brava Airport",
+    "city": "Girona",
+    "iata": "GRO",
+    "lat": "41.9011",
+    "lng": "2.7611",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/77/Girona-Costa_Brava_Airport_-_View_from_plane.JPG",
+    "description": "Strategically located for visitors heading to the Costa Brava or the Pyrenees."
+  },
+  {
+    "id": "7080777",
+    "name": "Granada Airport",
+    "city": "Granada",
+    "iata": "GRX",
+    "lat": "37.1887",
+    "lng": "-3.7774",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Aeropuerto_de_Granada.jpg",
+    "description": "Providing access to the historic city of Granada and its famous Alhambra."
+  },
+  {
+    "id": "7081113",
+    "name": "Huesca-Pirineos Airport",
+    "city": "Huesca",
+    "iata": "HSK",
+    "lat": "42.0808",
+    "lng": "-0.3236",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Aeropuerto_de_Huesca-Pirineos%2C_Espa%C3%B1a.jpg",
+    "description": "Located in Aragon, this airport is the gateway to the Spanish Pyrenees."
+  },
+  {
+    "id": "7081216",
+    "name": "Ibiza Airport",
+    "city": "Ibiza",
+    "iata": "IBZ",
+    "lat": "38.8729",
+    "lng": "1.3731",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/db/Ibiza_Airport_asv2023-04_img4.jpg",
+    "description": "One of the world's most famous airports for Balearic nightlife and tourism."
+  },
+  {
+    "id": "7081290",
+    "name": "Alguaire Airport",
+    "city": "Lleida",
+    "iata": "ILD",
+    "lat": "41.7277",
+    "lng": "0.5358",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Lleida-airport1.jpg",
+    "description": "The regional airport for Lleida, supporting commercial and technical flights."
+  },
+  {
+    "id": "7082262",
+    "name": "La Coruña Airport",
+    "city": "A Coruña",
+    "iata": "LCG",
+    "lat": "43.3021",
+    "lng": "-8.3773",
+    "image": "https://www.ciudadfcc.com/documents/14171717/15147937/La-coru%C3%B1a.jpg/169194ca-c59c-03dd-bf63-5cb839223842?1.0",
+    "description": "A vital transport link for the northern Galician coast."
+  },
+  {
+    "id": "7082307",
+    "name": "Almería Airport",
+    "city": "Almería",
+    "iata": "LEI",
+    "lat": "36.8439",
+    "lng": "-2.3701",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Aeropuerto_de_Almer%C3%ADa.jpeg",
+    "description": "Connecting southeastern Andalusia with major European cities."
+  },
+  {
+    "id": "7082312",
+    "name": "León Airport",
+    "city": "León",
+    "iata": "LEN",
+    "lat": "42.5891",
+    "lng": "-5.6552",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/63/Aeropuerto-guanajuato.jpg",
+    "description": "An important regional hub for the province of León in Castile and León."
+  },
+  {
+    "id": "7082319",
+    "name": "Seo de Urgel Airport",
+    "city": "La Seu d'Urgell",
+    "iata": "LEU",
+    "lat": "42.3386",
+    "lng": "1.4091",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Pirineus_-_la_Seu_d%27Urgell_airport.jpg",
+    "description": "Located in the Pyrenees, it serves the border area near Andorra."
+  },
+  {
+    "id": "7082504",
+    "name": "Gran Canaria Airport",
+    "city": "Las Palmas",
+    "iata": "LPA",
+    "lat": "27.9319",
+    "lng": "-15.3866",
+    "image": "https://media-cdn.sygictraveldata.com/media/800x600/612664395a40232133447d33247d38313032393438303237",
+    "description": "One of the busiest airports in the Canary archipelago."
+  },
+  {
+    "id": "7082682",
+    "name": "Adolfo Suárez Madrid-Barajas",
+    "city": "Madrid",
+    "iata": "MAD",
+    "lat": "40.4915",
+    "lng": "-3.5695",
+    "image": "https://s28477.pcdn.co/wp-content/uploads/2018/01/MAD_2.jpg",
+    "description": "The largest and most important international airport in Spain."
+  },
+  {
+    "id": "7082686",
+    "name": "Mahón Airport",
+    "city": "Menorca",
+    "iata": "MAH",
+    "lat": "39.8626",
+    "lng": "4.2186",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/de/Menorca_Airport_%287336476996%29.jpg",
+    "description": "The primary air terminal for the beautiful island of Menorca."
+  },
+  {
+    "id": "7082928",
+    "name": "San Javier Airport",
+    "city": "Murcia",
+    "iata": "MJV",
+    "lat": "37.7747",
+    "lng": "-0.8124",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Murcia_San_Javier_Airport_2013_-_panoramio.jpg",
+    "description": "A historic airport near the Mar Menor lagoon in Murcia."
+  },
+  {
+    "id": "7082970",
+    "name": "Melilla Airport",
+    "city": "Melilla",
+    "iata": "MLN",
+    "lat": "35.2798",
+    "lng": "-2.9562",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/24/Melilla_Airport.jpg",
+    "description": "The only airport serving the Spanish city of Melilla in North Africa."
+  },
+  {
+    "id": "7083704",
+    "name": "Córdoba Airport",
+    "city": "Córdoba",
+    "iata": "ODB",
+    "lat": "37.8420",
+    "lng": "-4.8488",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/82/Aeropuerto_de_Cordoba.jpg",
+    "description": "An important regional airport for the city of Córdoba in Andalusia."
+  },
+  {
+    "id": "7083935",
+    "name": "Asturias Airport",
+    "city": "Oviedo",
+    "iata": "OVD",
+    "lat": "43.5636",
+    "lng": "-6.0346",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Aeropuerto_20.11.21.jpg",
+    "description": "The main airport for the green and mountainous region of Asturias."
+  },
+  {
+    "id": "7083968",
+    "name": "Moron Airport",
+    "city": "Seville",
+    "iata": "OZP",
+    "lat": "37.1746",
+    "lng": "-5.6151",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/48/Aeropuerto_de_Sevilla_desde_el_aire.jpg",
+    "description": "A major airbase near Seville used for military and support operations."
+  },
+  {
+    "id": "7084225",
+    "name": "Son Sant Joan Airport",
+    "city": "Palma de Mallorca",
+    "iata": "PMI",
+    "lat": "39.5517",
+    "lng": "2.7388",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Aeropuerto_PMI.jpg",
+    "description": "A top-tier European airport serving the heart of the Balearic Islands."
+  },
+  {
+    "id": "7084242",
+    "name": "Pamplona Airport",
+    "city": "Pamplona",
+    "iata": "PNA",
+    "lat": "42.7700",
+    "lng": "-1.6465",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Exterior_aeropuerto_Pamplona.jpg",
+    "description": "Providing regional connectivity to the historic Kingdom of Navarre."
+  },
+  {
+    "id": "7084705",
+    "name": "Reus Airport",
+    "city": "Reus",
+    "iata": "REU",
+    "lat": "41.1474",
+    "lng": "1.1672",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/91/REU_exterior.jpg",
+    "description": "A popular choice for travelers heading to the Costa Daurada and Tarragona."
+  },
+  {
+    "id": "7084727",
+    "name": "Burgos Airport",
+    "city": "Burgos",
+    "iata": "RGS",
+    "lat": "42.3576",
+    "lng": "-3.6208",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Aero_Burgos.jpg",
+    "description": "A modern regional airport in the center of the Castilian plateau."
+  },
+  {
+    "id": "7084764",
+    "name": "Agoncillo Airport",
+    "city": "Logroño",
+    "iata": "RJL",
+    "lat": "42.4542",
+    "lng": "-2.3217",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/57/Aeropuerto_de_Logro%C3%B1o-Agoncillo_exterior_edit.jpg",
+    "description": "Serving the famous wine-producing region of La Rioja."
+  },
+  {
+    "id": "7084806",
+    "name": "Corvera International Airport",
+    "city": "Murcia",
+    "iata": "RMU",
+    "lat": "37.8030",
+    "lng": "-1.1250",
+    "image": "https://www.corveraairporttravel.com/wp-content/uploads/2019/01/cropped-Corvera-Airport.jpg",
+    "description": "The primary international gateway for the Region of Murcia."
+  },
+  {
+    "id": "7085011",
+    "name": "Santiago De Compostela Airport",
+    "city": "Santiago de Compostela",
+    "iata": "SCQ",
+    "lat": "42.8963",
+    "lng": "-8.4119",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/84/Santiago_de_Compostela_-_LEST_Terminal.jpg",
+    "description": "The destination airport for thousands of pilgrims on the Way of Saint James."
+  },
+  {
+    "id": "7085035",
+    "name": "Santander Airport",
+    "city": "Santander",
+    "iata": "SDR",
+    "lat": "43.4271",
+    "lng": "-3.8200",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Santander.Airport.jpg/1280px-Santander.Airport.jpg",
+    "description": "Located on the northern coast, it serves the beautiful Cantabria region."
+  },
+  {
+    "id": "7085222",
+    "name": "Matacan Airport",
+    "city": "Salamanca",
+    "iata": "SLM",
+    "lat": "40.9521",
+    "lng": "-5.5019",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/LESA_SLM_023.jpg",
+    "description": "An important pilot training and regional transport hub in Salamanca."
+  },
+  {
+    "id": "7085315",
+    "name": "La Palma Airport",
+    "city": "Santa Cruz de la Palma",
+    "iata": "SPC",
+    "lat": "28.6265",
+    "lng": "-17.7556",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/74/La_Palma_Airport_R01.jpg",
+    "description": "The essential connection for the island of La Palma in the Atlantic."
+  },
+  {
+    "id": "7085470",
+    "name": "San Pablo Airport",
+    "city": "Seville",
+    "iata": "SVQ",
+    "lat": "37.4180",
+    "lng": "-5.8931",
+    "image": "https://arquitecturaviva.com/assets/uploads/obras/45891/av_imagen.webp",
+    "description": "A major southern hub serving the historic and cultural city of Seville."
+  },
+  {
+    "id": "7085691",
+    "name": "Norte Los Rodeos Airport",
+    "city": "Tenerife",
+    "iata": "TFN",
+    "lat": "28.4827",
+    "lng": "-16.3415",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Norda_flughaveno_de_Tenerifo%2C_turo%2C_2.jpeg",
+    "description": "Mainly handling domestic and inter-island flights in Tenerife."
+  },
+  {
+    "id": "7085693",
+    "name": "Sur Reina Sofia Airport",
+    "city": "Tenerife",
+    "iata": "TFS",
+    "lat": "28.0445",
+    "lng": "-16.5725",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Flughaveno_Tenerifo_Suda%2C_23.jpeg",
+    "description": "The primary international gateway to the south of Tenerife."
+  },
+  {
+    "id": "7085886",
+    "name": "Torrejon AFB Airport",
+    "city": "Madrid",
+    "iata": "TOJ",
+    "lat": "40.4967",
+    "lng": "-3.4475",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Base_A%C3%A9rea_de_Torrej%C3%B3n-2.jpg",
+    "description": "A major airbase used for government and military purposes in Madrid."
+  },
+  {
+    "id": "7086311",
+    "name": "Hierro Airport",
+    "city": "Valverde",
+    "iata": "VDE",
+    "lat": "27.8148",
+    "lng": "-17.8871",
+    "image": "https://airplane-pictures.net/images/uploaded-images/2021/4/14/1387237as.jpg",
+    "description": "The small but vital airport for the island of El Hierro."
+  },
+  {
+    "id": "7086333",
+    "name": "Vigo Airport",
+    "city": "Vigo",
+    "iata": "VGO",
+    "lat": "42.2287",
+    "lng": "-8.6268",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Aeropuerto_de_Vigo%2C_foto_aerea.jpg",
+    "description": "Connecting the industrial city of Vigo with major national cities."
+  },
+  {
+    "id": "7086356",
+    "name": "Vitoria Airport",
+    "city": "Vitoria-Gasteiz",
+    "iata": "VIT",
+    "lat": "42.8828",
+    "lng": "-2.8245",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/61/Asteguieta_-_Vista_del_Aeropuerto_de_Foronda.jpg",
+    "description": "A key logistics and cargo hub in the Basque Country."
+  },
+  {
+    "id": "7086370",
+    "name": "Valencia Airport",
+    "city": "Valencia",
+    "iata": "VLC",
+    "lat": "39.4893",
+    "lng": "-0.4816",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/42/Valencia_Airport_Terminal.jpg",
+    "description": "Providing vital international connections to the city of Valencia."
+  },
+  {
+    "id": "7086376",
+    "name": "Valladolid Airport",
+    "city": "Valladolid",
+    "iata": "VLL",
+    "lat": "41.7061",
+    "lng": "-4.8519",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Aeropuerto_de_Valladolid_%2854316573555%29.jpg",
+    "description": "The gateway for the province of Valladolid and central Castile."
+  },
+  {
+    "id": "7087011",
+    "name": "Jerez De La Frontera Airport",
+    "city": "Jerez",
+    "iata": "XRY",
+    "lat": "36.7446",
+    "lng": "-6.0601",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Jerez_Airport_back.JPG",
+    "description": "The airport for the sherry region and the province of Cádiz."
+  },
+  {
+    "id": "7087665",
+    "name": "Zaragoza Airport",
+    "city": "Zaragoza",
+    "iata": "ZAZ",
+    "lat": "41.6662",
+    "lng": "-1.0416",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/89/Aeropuerto_de_Zaragoza_2.jpg",
+    "description": "A major regional airport and strategic cargo hub in Aragon."
+  },
+  {
+    "id": "7088110",
+    "name": "Ciudad Real Central Airport",
+    "city": "Ciudad Real",
+    "iata": "CQM",
+    "lat": "38.8564",
+    "lng": "-3.9700",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Aeropuerto_Central_Ciudad_Real.jpg",
+    "description": "A large-scale logistics and commercial airport in central Spain."
+  },
+  {
+    "id": "7088239",
+    "name": "Teruel Airport",
+    "city": "Teruel",
+    "iata": "TEV",
+    "lat": "40.4118",
+    "lng": "-1.2185",
+    "image": "https://www.aeropuertodeteruel.com/images/easyblog_articles/404/NVO_20240424_2795.jpg",
+    "description": "Famous for being the largest aircraft storage and maintenance base in Europe."
+  }
+]

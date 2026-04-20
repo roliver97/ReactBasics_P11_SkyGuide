@@ -1,0 +1,13 @@
+.explorer-page {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+main:has(.explorer-page) {
+  padding: 10px;
+}
+
+.explorer-content {
+  flex: 1;
+}
