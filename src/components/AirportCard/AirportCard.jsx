@@ -3,6 +3,12 @@ import './AirportCard.css'
 import { Link } from 'react-router-dom'
 
 const AirportCard = ({ airport }) => {
+  const originalImgUrl = airport.image
+  const optimizedImgUrl = originalImgUrl.replace(
+    '/upload/',
+    '/upload/q_auto/f_auto/w_450/'
+  )
+
   return (
     <Link to={`/airport/${airport.iata}`}>
       <div className='airport-card'>
@@ -14,8 +20,9 @@ const AirportCard = ({ airport }) => {
         </div>
         <div className='card-image'>
           <img
-            src={airport.image || '/images/placeholder-airport.jpg'}
+            src={optimizedImgUrl || '/images/placeholder-airport.jpg'}
             alt={airport.name}
+            loading='lazy'
             onError={(e) => {
               // Si la imatge falla, la Màquina canvia la font per una imatge local que tu tinguis
               e.target.src = '/assets/images/default-airport.png'
