@@ -466,7 +466,7 @@
     },
     {
       "flight_date": "2026-04-20",
-      "flight_status": "active",
+      "flight_status": "scheduled",
       "departure": {
         "airport": "El Prat De Llobregat",
         "timezone": "Europe/Madrid",
@@ -532,7 +532,7 @@
         "icao": "LEBL",
         "terminal": "1",
         "gate": "D8",
-        "delay": null,
+        "delay": 16,
         "scheduled": "2026-04-20T12:40:00+00:00",
         "estimated": "2026-04-20T12:40:00+00:00",
         "actual": null,

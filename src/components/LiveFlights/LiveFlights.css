@@ -44,17 +44,36 @@ hr.live-flight-separator {
   flex-direction: column;
   gap: var(--rtc-gap-m);
   flex: 1;
-  justify-content: center;
+
   align-items: center;
 }
 
+.live-flights-widget .flights-header span {
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.445);
+}
+
+.live-flights-widget .flights-header,
 .live-flights-widget li {
   display: flex;
-  align-items: center;
   gap: var(--rtc-gap-l);
-  justify-content: center;
+  text-align: center;
 }
 
 .live-flights-widget span {
   min-width: 110px;
+}
+
+span.flight-delay-time {
+  color: rgb(120, 247, 120);
+  text-transform: capitalize;
+}
+
+span.flight-delay-time.delayed {
+  color: rgb(255, 230, 0);
+  text-transform: capitalize;
+}
+
+span.status {
+  text-transform: capitalize;
 }

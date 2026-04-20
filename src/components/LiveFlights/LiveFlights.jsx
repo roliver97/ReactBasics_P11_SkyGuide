@@ -46,7 +46,7 @@ const LiveFlights = ({ airport }) => {
 
   const filteredFlights = flights
     .filter((f) => {
-      if (filter === 'all') return true
+      if (filter === 'all') return true //? el "filter" dentro de los if hace referencia al estado filter
       if (filter === 'active') return f.flight_status === 'active'
       if (filter === 'scheduled') return f.flight_status === 'scheduled'
       if (filter === 'delayed') return f.departure?.delay > 0
@@ -69,22 +69,33 @@ const LiveFlights = ({ airport }) => {
           onClick={() => setFilter('active')}
           className={filter === 'active' ? 'active' : ''}
         >
-          Flying Now🛫
+          Flying Now
         </button>
         <button
           onClick={() => setFilter('scheduled')}
           className={filter === 'scheduled' ? 'active' : ''}
         >
-          Scheduled ⏱️
+          Scheduled
         </button>
         <button
           onClick={() => setFilter('delayed')}
           className={filter === 'delayed' ? 'active' : ''}
         >
-          Delays ⚠️
+          Delays
         </button>
       </div>
+
       <hr className='live-flight-separator' />
+
+      <div className='flights-header'>
+        <span>FLIGHT</span>
+        <span>DESTINATION</span>
+        <span>TIME</span>
+        <span>STATUS</span>
+        {/* Afegim un buit per si hi ha notes/delays */}
+        <span>NOTES</span>
+      </div>
+
       <ul>
         {filteredFlights?.map((f, index) => (
           <li key={index}>
@@ -94,14 +105,23 @@ const LiveFlights = ({ airport }) => {
               {airport.iata} ➡️ {f.arrival?.iata}
             </span>
             <span className='flight-time'>
-              (
               {f.departure?.scheduled
                 ? `${f.departure.scheduled.split('T')[1].slice(0, 5)}h`
                 : '--:--'}
-              )
             </span>
-            <span className={`status-${f.flight_status}`}>
+            <span className={`status status-${f.flight_status}`}>
               {f.flight_status}
+            </span>
+            <span
+              className={
+                f.departure?.delay > 0
+                  ? 'flight-delay-time delayed'
+                  : 'flight-delay-time'
+              }
+            >
+              {f.departure?.delay > 0
+                ? `${f.departure?.delay}min delayed`
+                : 'On time'}
             </span>
           </li>
         ))}
