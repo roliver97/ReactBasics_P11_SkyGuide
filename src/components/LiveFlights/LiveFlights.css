@@ -1,0 +1,60 @@
+.live-flights-widget {
+  z-index: 1;
+
+  background-color: color-mix(in srgb, var(--rtc-color-2), transparent 30%);
+  padding: var(--rtc-padding-l);
+  border: 2px solid var(--rtc-highlightColorSecondary);
+
+  gap: var(--rtc-gap-l);
+  flex: 1;
+}
+
+.live-flights-widget .filter-bar {
+  width: 80%;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+hr.live-flight-separator {
+  width: 100%;
+}
+
+.live-flights-widget .filter-bar button {
+  background-color: transparent;
+  color: var(--rtc-color-1);
+  width: 150px;
+  border: 2px solid black;
+  background: rgba(255, 255, 255, 0.116);
+  border-radius: var(--rtc-border-radius-square);
+  padding: var(--rtc-padding-xs);
+
+  font-size: 0.9rem;
+}
+
+.live-flights-widget .filter-bar button.active {
+  background: rgba(0, 0, 0, 0.521);
+  width: 150px;
+  border: 2px solid var(--rtc-color-1);
+}
+
+.live-flights-widget ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: var(--rtc-gap-m);
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.live-flights-widget li {
+  display: flex;
+  align-items: center;
+  gap: var(--rtc-gap-l);
+  justify-content: center;
+}
+
+.live-flights-widget span {
+  min-width: 110px;
+}

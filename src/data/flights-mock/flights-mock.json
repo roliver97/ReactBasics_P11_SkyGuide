@@ -1,0 +1,584 @@
+{
+  "data": [
+    {
+      "flight_date": "2026-04-20",
+      "flight_status": "active",
+      "departure": {
+        "airport": "El Prat De Llobregat",
+        "timezone": "Europe/Madrid",
+        "iata": "BCN",
+        "icao": "LEBL",
+        "terminal": "1",
+        "gate": "351-",
+        "delay": null,
+        "scheduled": "2026-04-20T12:50:00+00:00",
+        "estimated": "2026-04-20T12:50:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Philadelphia International",
+        "timezone": "America/New_York",
+        "iata": "PHL",
+        "icao": "KPHL",
+        "terminal": "A",
+        "gate": "A26",
+        "baggage": "CUST",
+        "scheduled": "2026-04-20T15:50:00+00:00",
+        "delay": 13,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Iberia",
+        "iata": "IB",
+        "icao": "IBE"
+      },
+      "flight": {
+        "number": "4935",
+        "iata": "IB4935",
+        "icao": "IBE4935",
+        "codeshared": {
+          "airline_name": "american airlines",
+          "airline_iata": "aa",
+          "airline_icao": "aal",
+          "flight_number": "743",
+          "flight_iata": "aa743",
+          "flight_icao": "aal743"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "AB0969"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-04-20",
+      "flight_status": "active",
+      "departure": {
+        "airport": "El Prat De Llobregat",
+        "timezone": "Europe/Madrid",
+        "iata": "BCN",
+        "icao": "LEBL",
+        "terminal": "1",
+        "gate": "351-",
+        "delay": null,
+        "scheduled": "2026-04-20T12:50:00+00:00",
+        "estimated": "2026-04-20T12:50:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Philadelphia International",
+        "timezone": "America/New_York",
+        "iata": "PHL",
+        "icao": "KPHL",
+        "terminal": "A",
+        "gate": "A26",
+        "baggage": "CUST",
+        "scheduled": "2026-04-20T15:50:00+00:00",
+        "delay": 13,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "British Airways",
+        "iata": "BA",
+        "icao": "BAW"
+      },
+      "flight": {
+        "number": "1608",
+        "iata": "BA1608",
+        "icao": "BAW1608",
+        "codeshared": {
+          "airline_name": "american airlines",
+          "airline_iata": "aa",
+          "airline_icao": "aal",
+          "flight_number": "743",
+          "flight_iata": "aa743",
+          "flight_icao": "aal743"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "AB0969"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-04-20",
+      "flight_status": "active",
+      "departure": {
+        "airport": "El Prat De Llobregat",
+        "timezone": "Europe/Madrid",
+        "iata": "BCN",
+        "icao": "LEBL",
+        "terminal": "1",
+        "gate": "351-",
+        "delay": null,
+        "scheduled": "2026-04-20T12:50:00+00:00",
+        "estimated": "2026-04-20T12:50:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Philadelphia International",
+        "timezone": "America/New_York",
+        "iata": "PHL",
+        "icao": "KPHL",
+        "terminal": "A",
+        "gate": "A26",
+        "baggage": "CUST",
+        "scheduled": "2026-04-20T15:50:00+00:00",
+        "delay": 13,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Finnair",
+        "iata": "AY",
+        "icao": "FIN"
+      },
+      "flight": {
+        "number": "3815",
+        "iata": "AY3815",
+        "icao": "FIN3815",
+        "codeshared": {
+          "airline_name": "american airlines",
+          "airline_iata": "aa",
+          "airline_icao": "aal",
+          "flight_number": "743",
+          "flight_iata": "aa743",
+          "flight_icao": "aal743"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "AB0969"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-04-20",
+      "flight_status": "active",
+      "departure": {
+        "airport": "El Prat De Llobregat",
+        "timezone": "Europe/Madrid",
+        "iata": "BCN",
+        "icao": "LEBL",
+        "terminal": "1",
+        "gate": "B32",
+        "delay": null,
+        "scheduled": "2026-04-20T12:40:00+00:00",
+        "estimated": "2026-04-20T12:40:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Frankfurt International Airport",
+        "timezone": "Europe/Berlin",
+        "iata": "FRA",
+        "icao": "EDDF",
+        "terminal": "1",
+        "gate": "A11",
+        "baggage": null,
+        "scheduled": "2026-04-20T14:50:00+00:00",
+        "delay": 11,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Air China",
+        "iata": "CA",
+        "icao": "CCA"
+      },
+      "flight": {
+        "number": "6066",
+        "iata": "CA6066",
+        "icao": "CCA6066",
+        "codeshared": {
+          "airline_name": "lufthansa",
+          "airline_iata": "lh",
+          "airline_icao": "dlh",
+          "flight_number": "1127",
+          "flight_iata": "lh1127",
+          "flight_icao": "dlh1127"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "3C65DA"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-04-20",
+      "flight_status": "active",
+      "departure": {
+        "airport": "El Prat De Llobregat",
+        "timezone": "Europe/Madrid",
+        "iata": "BCN",
+        "icao": "LEBL",
+        "terminal": "1",
+        "gate": "D8",
+        "delay": null,
+        "scheduled": "2026-04-20T12:40:00+00:00",
+        "estimated": "2026-04-20T12:40:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Heathrow",
+        "timezone": "Europe/London",
+        "iata": "LHR",
+        "icao": "EGLL",
+        "terminal": "5",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2026-04-20T14:05:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "LATAM Airlines",
+        "iata": "LA",
+        "icao": "LAN"
+      },
+      "flight": {
+        "number": "5488",
+        "iata": "LA5488",
+        "icao": "LAN5488",
+        "codeshared": {
+          "airline_name": "british airways",
+          "airline_iata": "ba",
+          "airline_icao": "baw",
+          "flight_number": "475",
+          "flight_iata": "ba475",
+          "flight_icao": "baw475"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "4081BB"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-04-20",
+      "flight_status": "active",
+      "departure": {
+        "airport": "El Prat De Llobregat",
+        "timezone": "Europe/Madrid",
+        "iata": "BCN",
+        "icao": "LEBL",
+        "terminal": "1",
+        "gate": "D8",
+        "delay": null,
+        "scheduled": "2026-04-20T12:40:00+00:00",
+        "estimated": "2026-04-20T12:40:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Heathrow",
+        "timezone": "Europe/London",
+        "iata": "LHR",
+        "icao": "EGLL",
+        "terminal": "5",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2026-04-20T14:05:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Vueling",
+        "iata": "VY",
+        "icao": "VLG"
+      },
+      "flight": {
+        "number": "9553",
+        "iata": "VY9553",
+        "icao": "VLG9553",
+        "codeshared": {
+          "airline_name": "british airways",
+          "airline_iata": "ba",
+          "airline_icao": "baw",
+          "flight_number": "475",
+          "flight_iata": "ba475",
+          "flight_icao": "baw475"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "4081BB"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-04-20",
+      "flight_status": "active",
+      "departure": {
+        "airport": "El Prat De Llobregat",
+        "timezone": "Europe/Madrid",
+        "iata": "BCN",
+        "icao": "LEBL",
+        "terminal": "1",
+        "gate": "D8",
+        "delay": null,
+        "scheduled": "2026-04-20T12:40:00+00:00",
+        "estimated": "2026-04-20T12:40:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Heathrow",
+        "timezone": "Europe/London",
+        "iata": "LHR",
+        "icao": "EGLL",
+        "terminal": "5",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2026-04-20T14:05:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "American Airlines",
+        "iata": "AA",
+        "icao": "AAL"
+      },
+      "flight": {
+        "number": "6814",
+        "iata": "AA6814",
+        "icao": "AAL6814",
+        "codeshared": {
+          "airline_name": "british airways",
+          "airline_iata": "ba",
+          "airline_icao": "baw",
+          "flight_number": "475",
+          "flight_iata": "ba475",
+          "flight_icao": "baw475"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "4081BB"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-04-20",
+      "flight_status": "active",
+      "departure": {
+        "airport": "El Prat De Llobregat",
+        "timezone": "Europe/Madrid",
+        "iata": "BCN",
+        "icao": "LEBL",
+        "terminal": "1",
+        "gate": "D8",
+        "delay": null,
+        "scheduled": "2026-04-20T12:40:00+00:00",
+        "estimated": "2026-04-20T12:40:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Heathrow",
+        "timezone": "Europe/London",
+        "iata": "LHR",
+        "icao": "EGLL",
+        "terminal": "5",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2026-04-20T14:05:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Iberia",
+        "iata": "IB",
+        "icao": "IBE"
+      },
+      "flight": {
+        "number": "3658",
+        "iata": "IB3658",
+        "icao": "IBE3658",
+        "codeshared": {
+          "airline_name": "british airways",
+          "airline_iata": "ba",
+          "airline_icao": "baw",
+          "flight_number": "475",
+          "flight_iata": "ba475",
+          "flight_icao": "baw475"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "4081BB"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-04-20",
+      "flight_status": "active",
+      "departure": {
+        "airport": "El Prat De Llobregat",
+        "timezone": "Europe/Madrid",
+        "iata": "BCN",
+        "icao": "LEBL",
+        "terminal": "1",
+        "gate": "D8",
+        "delay": null,
+        "scheduled": "2026-04-20T12:40:00+00:00",
+        "estimated": "2026-04-20T12:40:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Heathrow",
+        "timezone": "Europe/London",
+        "iata": "LHR",
+        "icao": "EGLL",
+        "terminal": "5",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2026-04-20T14:05:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Malaysia Airlines",
+        "iata": "MH",
+        "icao": "MAS"
+      },
+      "flight": {
+        "number": "9701",
+        "iata": "MH9701",
+        "icao": "MAS9701",
+        "codeshared": {
+          "airline_name": "british airways",
+          "airline_iata": "ba",
+          "airline_icao": "baw",
+          "flight_number": "475",
+          "flight_iata": "ba475",
+          "flight_icao": "baw475"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "4081BB"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-04-20",
+      "flight_status": "active",
+      "departure": {
+        "airport": "El Prat De Llobregat",
+        "timezone": "Europe/Madrid",
+        "iata": "BCN",
+        "icao": "LEBL",
+        "terminal": "1",
+        "gate": "D8",
+        "delay": null,
+        "scheduled": "2026-04-20T12:40:00+00:00",
+        "estimated": "2026-04-20T12:40:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Heathrow",
+        "timezone": "Europe/London",
+        "iata": "LHR",
+        "icao": "EGLL",
+        "terminal": "5",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2026-04-20T14:05:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Japan Airlines",
+        "iata": "JL",
+        "icao": "JTL"
+      },
+      "flight": {
+        "number": "7742",
+        "iata": "JL7742",
+        "icao": "JTL7742",
+        "codeshared": {
+          "airline_name": "british airways",
+          "airline_iata": "ba",
+          "airline_icao": "baw",
+          "flight_number": "475",
+          "flight_iata": "ba475",
+          "flight_icao": "baw475"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "4081BB"
+      },
+      "live": null
+    }
+  ]
+}

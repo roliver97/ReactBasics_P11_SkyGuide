@@ -32,7 +32,7 @@ const LiveWeather = ({ airport }) => {
   //* En el primer renderizado loading será "false" así que usamos un condicional para pintar un mensaje de loading mientras el fetch nos resuelve la promesa
   if (loading || !weather) {
     return (
-      <div className='weather-widget flex-container wrapper'>
+      <div className='weather-widget flex-container'>
         <p>Searching coordinates and weather... 📡</p>{' '}
       </div>
     )
@@ -42,10 +42,12 @@ const LiveWeather = ({ airport }) => {
   const weatherFormattedDate = formatWeatherData(weather.time)
 
   return (
-    <div className='weather-widget flex-container wrapper'>
-      <h3>
-        Current weather at {airport.name} in {airport.city}, Spain
-      </h3>
+    <div className='weather-widget flex-container'>
+      <div className='weather-title flex-container'>
+        <h2>Live weather at</h2>
+        <h3>{airport.name}</h3>
+        <span>{airport.city}, Spain</span>
+      </div>
       <div className='weather-info flex-container'>
         <div className='flex-container'>
           <span className='weather-date'>📆 {weatherFormattedDate.date}</span>

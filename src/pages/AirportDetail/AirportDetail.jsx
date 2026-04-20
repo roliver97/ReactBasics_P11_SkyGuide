@@ -4,6 +4,7 @@ import { useParams } from 'react-router-dom'
 
 import airportsLocalData from '../../data/airports-spain/airports-spain.json'
 import LiveWeather from '../../components/LiveWeather/LiveWeather'
+import LiveFlights from '../../components/LiveFlights/LiveFlights'
 
 const AirportDetail = () => {
   const { iata } = useParams()
@@ -21,33 +22,34 @@ const AirportDetail = () => {
 
   return (
     <section className='detail-page flex-container'>
-      <div className='detail-image-container flex-container'>
-        <img
-          src={airport.image || '/images/placeholder-airport.jpg'}
-          alt={airport.name}
-          className='detail-image'
-          onError={(e) => {
-            // Si la imatge falla, la Màquina canvia la font per una imatge local que tu tinguis
-            e.target.src = '/assets/images/default-airport.png'
-            e.target.classList.add('card-image-error')
-          }}
-        />
-      </div>
+      <img
+        src={airport.image || '/images/placeholder-airport.jpg'}
+        alt={airport.name}
+        className='detail-image'
+        onError={(e) => {
+          // Si la imatge falla, la Màquina canvia la font per una imatge local que tu tinguis
+          e.target.src = '/assets/images/default-airport.png'
+          e.target.classList.add('card-image-error')
+        }}
+      />
 
       <div className='detail-title-container wrapper flex-container'>
-        <h1>{airport.name}</h1>
-        <hr className='detail-separator' />
-        <div className='detail-subtitle-container flex-container'>
+        <div>
+          <h1>{airport.name}</h1>
           <h3>{airport.city} </h3>
           <span className='iata-span'>{airport.iata}</span>
         </div>
+        <hr className='detail-separator' />
       </div>
 
       <div className='detail-description-container wrapper flex-container'>
         <p>{airport.description}</p>
       </div>
 
-      <LiveWeather airport={airport} />
+      <div className='detail-widgets-container wrapper'>
+        <LiveWeather airport={airport} />
+        <LiveFlights airport={airport} />
+      </div>
     </section>
   )
 }

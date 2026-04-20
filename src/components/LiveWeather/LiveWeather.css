@@ -5,19 +5,16 @@
   padding: var(--rtc-padding-l);
   border: 2px solid var(--rtc-highlightColorSecondary);
 
-  gap: var(--rtc-gap-l);
-
-  width: 100%;
+  width: 25%;
 }
 
-.weather-widget h3 {
-  color: var(--rtc-color-6);
+div.weather-title {
+  gap: var(--rtc-gap-xs);
 }
 
 div.weather-info {
-  flex-direction: row;
-  width: 80%;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  flex: 1;
 }
 
 div.weather-info div {
