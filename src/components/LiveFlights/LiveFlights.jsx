@@ -9,6 +9,15 @@ const LiveFlights = ({ airport }) => {
   const [flights, setFlights] = useState([])
   const [filter, setFilter] = useState('all')
   const [loading, setLoading] = useState(true)
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 769)
+
+  useEffect(() => {
+    //! Sin este useEffect el estado isMobile solo se calcularia una vez (cuando cargásemos la página)
+    const handleResize = () => setIsMobile(window.innerWidth < 769)
+    window.addEventListener('resize', handleResize)
+    return () => window.removeEventListener('resize', handleResize) //! Sin este return de limpieza, al cerrar el componente LiveFlights (cambiando por ejemplo de sección o página) el listener se quedaria escuchando indefinidamente el resize de una ventana que ya no existe.
+    // El return devuelve una función porque necesitamos que React la guarde para ejecutarla más tarde (cuando el componente muera)
+  }, [])
 
   useEffect(() => {
     const getFlights = async () => {
@@ -52,7 +61,7 @@ const LiveFlights = ({ airport }) => {
       if (filter === 'delayed') return f.departure?.delay > 0
       return true
     })
-    .slice(0, 7)
+    .slice(0, 8)
 
   return (
     <div className='live-flights-widget flex-container '>
@@ -87,48 +96,73 @@ const LiveFlights = ({ airport }) => {
 
       <hr className='live-flight-separator' />
 
-      <div className='flights-header'>
-        <span>FLIGHT</span>
-        <span>DESTINATION</span>
-        <span>TIME</span>
-        <span>STATUS</span>
-        {/* Afegim un buit per si hi ha notes/delays */}
-        <span>NOTES</span>
-      </div>
-
-      <ul>
-        {filteredFlights?.map((f, index) => (
-          <li key={index}>
-            <span className='flight-number'>{f.flight?.number}</span>
-            <span className='flight-dest'>
-              {' '}
-              {airport.iata} ➡️ {f.arrival?.iata}
-            </span>
-            <span className='flight-time'>
-              {f.departure?.scheduled
-                ? `${f.departure.scheduled.split('T')[1].slice(0, 5)}h`
-                : '--:--'}
-            </span>
-            <span className={`status status-${f.flight_status}`}>
-              {f.flight_status}
-            </span>
-            <span
-              className={
-                f.departure?.delay > 0
-                  ? 'flight-delay-time delayed'
-                  : 'flight-delay-time'
-              }
-            >
-              {f.departure?.delay > 0
-                ? `${f.departure?.delay}min delayed`
-                : 'On time'}
-            </span>
-          </li>
-        ))}
-        {filteredFlights.length === 0 && (
-          <p>No flights found for this category.</p>
+      <div className='flights-info-container'>
+        {!isMobile && (
+          <div className='flights-header'>
+            <span>FLIGHT</span>
+            <span>ROUTE</span>
+            <span>TIME</span>
+            <span>STATUS</span>
+            {/* Afegim un buit per si hi ha notes/delays */}
+            <span>NOTES</span>
+          </div>
         )}
-      </ul>
+
+        <ul>
+          {filteredFlights?.map((f, index) => (
+            <li key={index}>
+              {isMobile && (
+                <div className='flights-header mobile-only'>
+                  <span>FLIGHT</span>
+                  <span>ROUTE</span>
+                  <span>TIME</span>
+                  <span>STATUS</span>
+                  <span>NOTES</span>
+                </div>
+              )}
+
+              <div className='flights-info'>
+                <span className='flight-number'>{f.flight?.number}</span>
+                <span className='flight-dest'>
+                  {' '}
+                  <abbr title={airport.name} className='iata-info'>
+                    {airport.iata}
+                  </abbr>{' '}
+                  ➡️{' '}
+                  <abbr
+                    title={f.arrival?.airport || 'Unknown City'}
+                    className='iata-info'
+                  >
+                    {f.arrival?.iata}
+                  </abbr>
+                </span>
+                <span className='flight-time'>
+                  {f.departure?.scheduled
+                    ? `${f.departure.scheduled.split('T')[1].slice(0, 5)}h`
+                    : '--:--'}
+                </span>
+                <span className={`status status-${f.flight_status}`}>
+                  {f.flight_status}
+                </span>
+                <span
+                  className={
+                    f.departure?.delay > 0
+                      ? 'flight-delay-time delayed'
+                      : 'flight-delay-time'
+                  }
+                >
+                  {f.departure?.delay > 0
+                    ? `${f.departure?.delay}min delayed`
+                    : 'On time'}
+                </span>
+              </div>
+            </li>
+          ))}
+          {filteredFlights.length === 0 && (
+            <p>No flights found for this category.</p>
+          )}
+        </ul>
+      </div>
     </div>
   )
 }

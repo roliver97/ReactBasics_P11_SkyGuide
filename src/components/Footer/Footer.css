@@ -5,6 +5,11 @@ footer .wrapper {
   padding: var(--rtc-padding-m) 0;
 }
 
+.footer-info-div {
+  display: flex;
+  gap: var(--rtc-gap-xs);
+}
+
 .footer-nav-div {
   display: flex;
   gap: var(--rtc-gap-xs);
@@ -20,4 +25,47 @@ footer a {
 .footer-github-icon {
   width: 20px;
   height: 20px;
+}
+
+/*!  MEDIA  */
+@media (max-width: 1800px) {
+  /* DESKTOP or less */
+}
+
+@media (max-width: 1024px) {
+  /* LAPTOP - TABLET or less */
+  footer .wrapper {
+    justify-content: space-around;
+  }
+
+  .footer-nav-div,
+  .footer-info-div {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 769px) {
+  /* SMALL TABLET or less */
+  footer .wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: var(--rtc-gap-s);
+  }
+
+  .footer-nav-div,
+  .footer-info-div {
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .footer-info-div {
+    order: 2;
+  }
+}
+
+@media (max-width: 480px) {
+  /* MOBILE or less */
+  .footer-info-div {
+    flex-direction: column-reverse;
+  }
 }

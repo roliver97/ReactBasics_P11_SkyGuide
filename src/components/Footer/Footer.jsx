@@ -5,7 +5,10 @@ const Footer = () => {
   return (
     <footer>
       <div className='wrapper'>
-        <p>© 2026 Sky Guide Project - ThePower | Rock The Code </p>
+        <div className='footer-info-div'>
+          <p>© 2026 Sky Guide Project </p>
+          <span>ThePower | Rock The Code</span>
+        </div>
         <div className='footer-nav-div'>
           <p>Created by Roman Oliver:</p>
           <nav>

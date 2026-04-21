@@ -34,12 +34,13 @@ const AirportDetail = () => {
       />
 
       <div className='detail-title-container wrapper flex-container'>
+        <h1>{airport.name}</h1>
+        <h3>{airport.city} </h3>
+        <span className='iata-span'>{airport.iata}</span>
+
         <div>
-          <h1>{airport.name}</h1>
-          <h3>{airport.city} </h3>
-          <span className='iata-span'>{airport.iata}</span>
+          <hr className='detail-separator' />
         </div>
-        <hr className='detail-separator' />
       </div>
 
       <div className='detail-description-container wrapper flex-container'>

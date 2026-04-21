@@ -5,7 +5,7 @@
   padding: var(--rtc-padding-l);
   border: 2px solid var(--rtc-highlightColorSecondary);
 
-  gap: var(--rtc-gap-l);
+  gap: var(--rtc-gap-s);
   flex: 1;
 }
 
@@ -13,7 +13,8 @@
   width: 80%;
 
   display: flex;
-  justify-content: space-between;
+  gap: var(--rtc-gap-l);
+  justify-content: center;
 }
 
 hr.live-flight-separator {
@@ -23,7 +24,7 @@ hr.live-flight-separator {
 .live-flights-widget .filter-bar button {
   background-color: transparent;
   color: var(--rtc-color-1);
-  width: 150px;
+  width: 120px;
   border: 2px solid black;
   background: rgba(255, 255, 255, 0.116);
   border-radius: var(--rtc-border-radius-square);
@@ -34,18 +35,27 @@ hr.live-flight-separator {
 
 .live-flights-widget .filter-bar button.active {
   background: rgba(0, 0, 0, 0.521);
-  width: 150px;
   border: 2px solid var(--rtc-color-1);
 }
 
+.live-flights-widget .flights-info-container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--rtc-gap-s);
+  flex: 1;
+}
+
 .live-flights-widget ul {
-  width: 100%;
   display: flex;
   flex-direction: column;
   gap: var(--rtc-gap-m);
-  flex: 1;
-
   align-items: center;
+}
+
+.live-flights-widget li {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 .live-flights-widget .flights-header span {
@@ -54,7 +64,7 @@ hr.live-flight-separator {
 }
 
 .live-flights-widget .flights-header,
-.live-flights-widget li {
+.live-flights-widget .flights-info {
   display: flex;
   gap: var(--rtc-gap-l);
   text-align: center;
@@ -62,6 +72,19 @@ hr.live-flight-separator {
 
 .live-flights-widget span {
   min-width: 110px;
+}
+
+span abbr.iata-info {
+  text-decoration: underline dotted;
+  text-underline-offset: 4px;
+
+  cursor: help;
+  border-bottom: none;
+}
+
+span abbr.iata-info:hover {
+  color: var(--rtc-color-3);
+  opacity: 1;
 }
 
 span.flight-delay-time {
@@ -76,4 +99,75 @@ span.flight-delay-time.delayed {
 
 span.status {
   text-transform: capitalize;
+}
+
+/*!  MEDIA  */
+@media (max-width: 1800px) {
+  /* DESKTOP or less */
+}
+
+@media (max-width: 1024px) {
+  /* LAPTOP - TABLET or less */
+  .live-flights-widget .flights-header,
+  .live-flights-widget .flights-info {
+    gap: 0;
+  }
+
+  .live-flights-widget .filter-bar {
+    width: 100%;
+  }
+}
+
+@media (max-width: 769px) {
+  /* SMALL TABLET or less */
+
+  .live-flights-widget .filter-bar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .live-flights-widget .filter-bar button {
+    width: 100%;
+  }
+
+  .live-flights-widget .flights-info-container {
+    flex-direction: row;
+    width: 100%;
+    gap: 0;
+    justify-content: space-between;
+  }
+
+  .live-flights-widget .flights-header {
+    text-align: start;
+  }
+
+  .live-flights-widget ul {
+    flex: 1;
+    gap: 0;
+  }
+
+  .live-flights-widget li {
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+  }
+
+  .live-flights-widget .flights-header,
+  .live-flights-widget .flights-info {
+    flex-direction: column;
+    gap: var(--rtc-gap-xs);
+    padding: var(--rtc-padding-s) 0;
+  }
+
+  .live-flights-widget .flights-header:last-child,
+  .live-flights-widget li:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  /* MOBILE or less */
 }
