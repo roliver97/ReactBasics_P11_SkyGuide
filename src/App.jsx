@@ -5,7 +5,7 @@ import Header from './components/Header/Header'
 import Explorer from './pages/Explorer/Explorer'
 import AirportDetail from './pages/AirportDetail/AirportDetail'
 import TopAirports from './pages/TopAirports/TopAirports'
-import LiveFlights from './pages/LiveFlights/LiveFlights'
+import AirportsQuiz from './pages/AirportsQuiz/AirportsQuiz'
 import Footer from './components/Footer/Footer'
 
 function App() {
