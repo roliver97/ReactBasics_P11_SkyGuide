@@ -19,7 +19,7 @@
   cursor: pointer;
 }
 
-.card-info {
+.card-subtitle {
   display: flex;
   width: 100%;
   justify-content: center;
@@ -50,4 +50,78 @@
 .airport-card .iata-span {
   font-weight: 600;
   color: var(--rtc-color-3);
+}
+
+/*! Top-Airports Version Card */
+.airport-grid:has(.airport-top-details) {
+  grid-template-columns: 1fr;
+}
+
+.airport-card-top {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 0;
+  border: 0;
+  padding-left: var(--rtc-padding-s);
+  padding-right: var(--rtc-padding-s);
+}
+
+.airport-card-top .card-title {
+  display: flex;
+  flex-direction: column;
+  gap: var(--rtc-gap-m);
+}
+
+.airport-card-top .card-image {
+  border: 2px solid white;
+}
+
+.airport-top-details {
+  gap: var(--rtc-gap-s);
+}
+
+.airport-top-details p {
+  font-size: 0.85rem;
+  color: var(--rtc-highlightColor);
+  font-weight: 600;
+}
+
+.airport-top-details span {
+  color: var(--rtc-highlightColor);
+  font-weight: 400;
+  margin: 10px;
+}
+
+/*!  MEDIA  */
+@media (max-width: 1800px) {
+  /* DESKTOP or less */
+}
+
+@media (max-width: 1024px) {
+  /* LAPTOP - TABLET or less */
+  .airport-card-top .card-subtitle {
+    gap: var(--rtc-gap-xs);
+  }
+}
+
+@media (max-width: 769px) {
+  /* SMALL TABLET or less */
+  .airport-card-top .card-title {
+    gap: var(--rtc-gap-xs);
+  }
+  .airport-card-top .card-title h1 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  /* MOBILE or less */
+  .airport-card-top {
+    display: flex;
+    padding: var(--rtc-padding-s);
+  }
+
+  .airport-card-top .card-title h1 {
+    font-size: 1.3rem;
+  }
 }

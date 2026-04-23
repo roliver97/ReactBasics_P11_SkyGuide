@@ -4,6 +4,7 @@
   background-color: color-mix(in srgb, var(--rtc-color-3), transparent 30%);
   padding: var(--rtc-padding-xl) var(--rtc-padding-l);
   border: 2px solid var(--rtc-highlightColorSecondary);
+  backdrop-filter: blur(2px);
 
   width: 25%;
   justify-content: space-between;

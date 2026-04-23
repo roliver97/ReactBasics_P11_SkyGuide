@@ -2,7 +2,8 @@ import React from 'react'
 import './AirportGrid.css'
 import AirportCard from '../AirportCard/AirportCard'
 
-const AirportGrid = ({ airports }) => {
+const AirportGrid = ({ airports, variant }) => {
+  //? Para explorer-page, variant serà null. Para top-airports-page, variant serà 'top'
   if (!airports || airports.length === 0)
     return (
       <div className='error-container'>
@@ -12,7 +13,7 @@ const AirportGrid = ({ airports }) => {
   return (
     <div className='airport-grid'>
       {airports.map((airport) => (
-        <AirportCard key={airport.id} airport={airport} /> // React usa la clave "key" para su control interno, pero el hijo nunca la podrá leer y mucho menos modificar por mucho que lo intentemos. Sería como un nombre de prop reservado. React usa key para identificar cada elemento del virtual DOM.
+        <AirportCard key={airport.id} airport={airport} variant={variant} /> // React usa la clave "key" para su control interno, pero el hijo nunca la podrá leer y mucho menos modificar por mucho que lo intentemos. Sería como un nombre de prop reservado. React usa key para identificar cada elemento del virtual DOM.
       ))}
     </div>
   )

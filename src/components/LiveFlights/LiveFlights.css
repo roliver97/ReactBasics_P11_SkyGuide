@@ -4,9 +4,10 @@
   background-color: color-mix(in srgb, var(--rtc-color-2), transparent 30%);
   padding: var(--rtc-padding-l);
   border: 2px solid var(--rtc-highlightColorSecondary);
+  backdrop-filter: blur(2px);
 
   gap: var(--rtc-gap-s);
-  flex: 1;
+  width: 100%;
 }
 
 .live-flights-widget .filter-bar {

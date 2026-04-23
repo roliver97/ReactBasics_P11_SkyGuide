@@ -27,7 +27,13 @@
     "lat": "36.6749",
     "lng": "-4.4991",
     "image": "https://res.cloudinary.com/djjxjezsu/image/upload/v1776673997/RTC_P11_SkyGuide/airports-spain/agp.jpg",
-    "description": "The primary airport serving the Costa del Sol and southern Andalusia."
+    "description": "The primary airport serving the Costa del Sol and southern Andalusia.",
+    "type": "Regional Gateway",
+    "status": "Operational",
+    "traffic": {
+      "year": 2025,
+      "passengers": "22.3M"
+    }
   },
   {
     "id": "7078267",
@@ -37,7 +43,13 @@
     "lat": "38.2822",
     "lng": "-0.5582",
     "image": "https://res.cloudinary.com/djjxjezsu/image/upload/v1776675162/RTC_P11_SkyGuide/airports-spain/alc.png",
-    "description": "Serving the Costa Blanca, it is one of the busiest airports in eastern Spain."
+    "description": "Serving the Costa Blanca, it is one of the busiest airports in eastern Spain.",
+    "type": "Regional Gateway",
+    "status": "Operational",
+    "traffic": {
+      "year": 2025,
+      "passengers": "15.7M"
+    }
   },
   {
     "id": "7078618",
@@ -47,7 +59,13 @@
     "lat": "41.2974",
     "lng": "2.0833",
     "image": "https://res.cloudinary.com/djjxjezsu/image/upload/v1776675162/RTC_P11_SkyGuide/airports-spain/bcn.jpg",
-    "description": "The main international hub for Catalonia and the Mediterranean coast."
+    "description": "The main international hub for Catalonia and the Mediterranean coast.",
+    "type": "International Hub",
+    "status": "Operational",
+    "traffic": {
+      "year": 2025,
+      "passengers": "49.9M"
+    }
   },
   {
     "id": "7078766",
@@ -207,7 +225,13 @@
     "lat": "27.9319",
     "lng": "-15.3866",
     "image": "https://res.cloudinary.com/djjxjezsu/image/upload/v1776675190/RTC_P11_SkyGuide/airports-spain/lpa.jpg",
-    "description": "One of the busiest airports in the Canary archipelago."
+    "description": "One of the busiest airports in the Canary archipelago.",
+    "type": "Island Hub",
+    "status": "Operational",
+    "traffic": {
+      "year": 2025,
+      "passengers": "13.9M"
+    }
   },
   {
     "id": "7082682",
@@ -217,7 +241,13 @@
     "lat": "40.4915",
     "lng": "-3.5695",
     "image": "https://res.cloudinary.com/djjxjezsu/image/upload/v1776674087/RTC_P11_SkyGuide/airports-spain/mad.jpg",
-    "description": "The largest and most important international airport in Spain."
+    "description": "The largest and most important international airport in Spain.",
+    "type": "International Hub",
+    "status": "Operational",
+    "traffic": {
+      "year": 2025,
+      "passengers": "60.2M"
+    }
   },
   {
     "id": "7082686",
@@ -287,7 +317,13 @@
     "lat": "39.5517",
     "lng": "2.7388",
     "image": "https://res.cloudinary.com/djjxjezsu/image/upload/v1776674126/RTC_P11_SkyGuide/airports-spain/pmi.jpg",
-    "description": "A top-tier European airport serving the heart of the Balearic Islands."
+    "description": "A top-tier European airport serving the heart of the Balearic Islands.",
+    "type": "Island Hub",
+    "status": "Operational",
+    "traffic": {
+      "year": 2025,
+      "passengers": "31.1M"
+    }
   },
   {
     "id": "7084242",
@@ -407,7 +443,13 @@
     "lat": "28.0445",
     "lng": "-16.5725",
     "image": "https://res.cloudinary.com/djjxjezsu/image/upload/v1776675585/RTC_P11_SkyGuide/airports-spain/tfs.jpg",
-    "description": "The primary international gateway to the south of Tenerife."
+    "description": "The primary international gateway to the south of Tenerife.",
+    "type": "Island Hub",
+    "status": "Operational",
+    "traffic": {
+      "year": 2025,
+      "passengers": "12.3M"
+    }
   },
   {
     "id": "7085886",
@@ -457,7 +499,13 @@
     "lat": "39.4893",
     "lng": "-0.4816",
     "image": "https://res.cloudinary.com/djjxjezsu/image/upload/v1776675602/RTC_P11_SkyGuide/airports-spain/vlc.avif",
-    "description": "Providing vital international connections to the city of Valencia."
+    "description": "Providing vital international connections to the city of Valencia.",
+    "type": "Regional Gateway",
+    "status": "Operational",
+    "traffic": {
+      "year": 2025,
+      "passengers": "9.9M"
+    }
   },
   {
     "id": "7086376",

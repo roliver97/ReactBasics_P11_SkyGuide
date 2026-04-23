@@ -43,13 +43,15 @@ const AirportDetail = () => {
         </div>
       </div>
 
-      <div className='detail-description-container wrapper flex-container'>
-        <p>{airport.description}</p>
-      </div>
+      <div className='detail-content-container wrapper'>
+        <div className='detail-description-container  flex-container'>
+          <p>{airport.description}</p>
+        </div>
 
-      <div className='detail-widgets-container wrapper'>
-        <LiveWeather airport={airport} />
-        <LiveFlights airport={airport} />
+        <div className='detail-widgets-container '>
+          <LiveWeather airport={airport} />
+          <LiveFlights airport={airport} />
+        </div>
       </div>
     </section>
   )

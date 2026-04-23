@@ -1,0 +1,27 @@
+.top-airports-page {
+  padding: 10px 0;
+}
+
+div.top-airports-titles {
+  gap: var(--rtc-gap-s);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: var(--rtc-gap-m);
+  padding: var(--rtc-padding-m);
+  width: 100%;
+  justify-self: center;
+}
+
+div.top-airports-titles h1 {
+  font-size: 2.3rem;
+  font-weight: 800;
+}
+
+div.top-airports-titles h1,
+div.top-airports-titles h3 {
+  color: var(--rtc-color-3);
+
+  text-shadow: 1px 1px 2px rgb(255, 255, 255);
+}
