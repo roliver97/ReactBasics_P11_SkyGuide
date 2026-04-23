@@ -17,7 +17,7 @@ function App() {
           <Route path='/' element={<Explorer />} />
           <Route path='/airport/:iata' element={<AirportDetail />} />
           <Route path='/top-airports' element={<TopAirports />} />
-          <Route path='/live-flights' element={<LiveFlights />} />
+          <Route path='/airports-quiz' element={<AirportsQuiz />} />
         </Routes>
       </main>
       <Footer />

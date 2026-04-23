@@ -22,7 +22,7 @@ const Header = () => {
         <nav>
           <NavLink to='/'>Explorer</NavLink>
           <NavLink to='/top-airports'>Top Airports</NavLink>
-          <NavLink to='/live-flights'>Live Flights</NavLink>
+          <NavLink to='/airports-quiz'>Airports Quiz</NavLink>
         </nav>
       </div>
     </header>
