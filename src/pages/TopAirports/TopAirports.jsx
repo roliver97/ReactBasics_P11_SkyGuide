@@ -30,10 +30,10 @@ const TopAirports = () => {
     <div className='top-airports-page flex-container'>
       <div className='top-airports-titles flex-container'>
         <h1>Top Airports in Spain</h1>
-        <h3>
+        <h4>
           Discover Spain's primary aviation hubs and explore real-time flight
           data, passenger statistics and connectivity.
-        </h3>
+        </h4>
       </div>
 
       <div className='top-airports-grid wrapper'>

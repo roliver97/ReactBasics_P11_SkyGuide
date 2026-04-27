@@ -12,16 +12,18 @@ div.top-airports-titles {
   padding: var(--rtc-padding-m);
   width: 100%;
   justify-self: center;
+  background-color: var(--rtc-bgColorOverlay);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
 }
 
 div.top-airports-titles h1 {
-  font-size: 2.3rem;
-  font-weight: 800;
+  font-size: 2rem;
+  font-weight: 700;
+  text-shadow: 1px 1px 2px rgb(255, 255, 255);
+  color: var(--rtc-color-3);
 }
 
-div.top-airports-titles h1,
-div.top-airports-titles h3 {
+div.top-airports-titles h4 {
   color: var(--rtc-color-3);
-
-  text-shadow: 1px 1px 2px rgb(255, 255, 255);
+  font-weight: 500;
 }

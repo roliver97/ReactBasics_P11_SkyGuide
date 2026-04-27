@@ -21,7 +21,7 @@ export const generateQuestion = () => {
       const correctAnswer = sortedOptions[0]
 
       return {
-        category: 'most-affluence',
+        category: 'Most Affluence',
         questionText:
           'Which of these airports had the most passengers in 2025?',
         image: null,
@@ -35,7 +35,7 @@ export const generateQuestion = () => {
       const possibleOptions = shuffleAndPick(filteredByImage, 3)
       const correctAnswer = shuffleAndPick(possibleOptions, 1)[0]
       return {
-        category: 'guess-airport',
+        category: 'Guess the Airport',
         questionText: 'Which airport does this image correspond to?',
         image: correctAnswer.image,
         options: possibleOptions,
@@ -48,7 +48,7 @@ export const generateQuestion = () => {
       const correctAnswer = shuffleAndPick(possibleOptions, 1)[0]
 
       return {
-        category: 'guess-iata',
+        category: 'Guess IATA Code',
         questionText: `Which airport does the IATA code ${correctAnswer.iata} belong to?`,
         options: possibleOptions,
         correctAnswer
@@ -76,11 +76,22 @@ export const generateQuestion = () => {
       )
 
       return {
-        category: 'airport-type',
+        category: 'Guess the Airport Type',
         questionText: `What type of airport is ${correctAnswer.name}?`,
         options: possibleOptions,
         correctAnswer: correctAnswer.type
       }
     }
   }
+}
+
+export const checkIsCorrect = (selectedOption, currentQuestion) => {
+  const answerText =
+    typeof selectedOption === 'string' ? selectedOption : selectedOption.name
+  const correctText =
+    typeof currentQuestion.correctAnswer === 'string'
+      ? currentQuestion.correctAnswer
+      : currentQuestion.correctAnswer.name
+
+  return answerText === correctText
 }
