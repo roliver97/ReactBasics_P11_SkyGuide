@@ -7,7 +7,14 @@
     "lat": "38.9485",
     "lng": "-1.8635",
     "image": "https://res.cloudinary.com/djjxjezsu/image/upload/v1776678437/RTC_P11_SkyGuide/airports-spain/abc.jpg",
-    "description": "A public airport serving the city of Albacete and the Castilla-La Mancha region."
+    "description": "A public airport serving the city of Albacete and the Castilla-La Mancha region.",
+    "type": "Military Airbase",
+    "status": "Operational",
+    "traffic": {
+      "year": 2025,
+      "passengers": "2.1K",
+      "passengersRaw": 2127
+    }
   },
   {
     "id": "7078093",
@@ -17,7 +24,14 @@
     "lat": "28.9455",
     "lng": "-13.6052",
     "image": "https://res.cloudinary.com/djjxjezsu/image/upload/v1776678485/RTC_P11_SkyGuide/airports-spain/ace.jpg",
-    "description": "The main gateway to the volcanic island of Lanzarote in the Canaries."
+    "description": "The main gateway to the volcanic island of Lanzarote in the Canaries.",
+    "type": "Island Gateway",
+    "status": "Operational",
+    "traffic": {
+      "year": 2025,
+      "passengers": "8.9M",
+      "passengersRaw": 8920901
+    }
   },
   {
     "id": "7078181",
@@ -32,7 +46,8 @@
     "status": "Operational",
     "traffic": {
       "year": 2025,
-      "passengers": "22.3M"
+      "passengers": "26.7M",
+      "passengersRaw": 26760549
     }
   },
   {
@@ -48,7 +63,8 @@
     "status": "Operational",
     "traffic": {
       "year": 2025,
-      "passengers": "15.7M"
+      "passengers": "19.9M",
+      "passengersRaw": 19950394
     }
   },
   {
@@ -64,7 +80,8 @@
     "status": "Operational",
     "traffic": {
       "year": 2025,
-      "passengers": "49.9M"
+      "passengers": "57.4M",
+      "passengersRaw": 57483036
     }
   },
   {
@@ -75,7 +92,14 @@
     "lat": "43.3011",
     "lng": "-2.9106",
     "image": "https://res.cloudinary.com/djjxjezsu/image/upload/v1776675162/RTC_P11_SkyGuide/airports-spain/bio.jpg",
-    "description": "The most important airport in the Basque Country and northern Spain."
+    "description": "The most important airport in the Basque Country and northern Spain.",
+    "type": "Regional Gateway",
+    "status": "Operational",
+    "traffic": {
+      "year": 2025,
+      "passengers": "7.0M",
+      "passengersRaw": 7062681
+    }
   },
   {
     "id": "7078801",
@@ -85,7 +109,14 @@
     "lat": "38.8913",
     "lng": "-6.8213",
     "image": "https://res.cloudinary.com/djjxjezsu/image/upload/v1776674011/RTC_P11_SkyGuide/airports-spain/bjz.jpg",
-    "description": "A dual-use airport serving the city of Badajoz and the Extremadura region."
+    "description": "A dual-use airport serving the city of Badajoz and the Extremadura region.",
+    "type": "Domestic Gateway",
+    "status": "Operational",
+    "traffic": {
+      "year": 2025,
+      "passengers": "107K",
+      "passengersRaw": 107002
+    }
   },
   {
     "id": "7079253",
@@ -95,7 +126,9 @@
     "lat": "40.2111",
     "lng": "0.0733",
     "image": "https://res.cloudinary.com/djjxjezsu/image/upload/v1776674020/RTC_P11_SkyGuide/airports-spain/cdt.jpg",
-    "description": "The main airport serving the northern coast of the Valencian Community."
+    "description": "The main airport serving the northern coast of the Valencian Community.",
+    "type": "Regional Gateway",
+    "status": "Operational"
   },
   {
     "id": "7080027",
@@ -105,7 +138,14 @@
     "lat": "43.3564",
     "lng": "-1.7906",
     "image": "https://res.cloudinary.com/djjxjezsu/image/upload/v1776674031/RTC_P11_SkyGuide/airports-spain/eas.jpg",
-    "description": "A scenic airport serving the province of Gipuzkoa, near the French border."
+    "description": "A scenic airport serving the province of Gipuzkoa, near the French border.",
+    "type": "Domestic Gateway",
+    "status": "Operational",
+    "traffic": {
+      "year": 2025,
+      "passengers": "472.6K",
+      "passengersRaw": 472666
+    }
   },
   {
     "id": "7080483",
@@ -115,7 +155,14 @@
     "lat": "28.4527",
     "lng": "-13.8638",
     "image": "https://res.cloudinary.com/djjxjezsu/image/upload/v1776675168/RTC_P11_SkyGuide/airports-spain/fue.jpg",
-    "description": "An international airport serving the windy island of Fuerteventura."
+    "description": "An international airport serving the windy island of Fuerteventura.",
+    "type": "Island Gateway",
+    "status": "Operational",
+    "traffic": {
+      "year": 2025,
+      "passengers": "6.8M",
+      "passengersRaw": 6886935
+    }
   },
   {
     "id": "7080704",
@@ -125,7 +172,14 @@
     "lat": "28.0297",
     "lng": "-17.2144",
     "image": "https://res.cloudinary.com/djjxjezsu/image/upload/v1776674042/RTC_P11_SkyGuide/airports-spain/gmz.jpg",
-    "description": "A quiet airport connecting the unique island of La Gomera with the rest of the Canaries."
+    "description": "A quiet airport connecting the unique island of La Gomera with the rest of the Canaries.",
+    "type": "Domestic Island Gateway",
+    "status": "Operational",
+    "traffic": {
+      "year": 2025,
+      "passengers": "128.3K",
+      "passengersRaw": 128341
+    }
   },
   {
     "id": "7080768",
@@ -135,7 +189,14 @@
     "lat": "41.9011",
     "lng": "2.7611",
     "image": "https://res.cloudinary.com/djjxjezsu/image/upload/v1776674050/RTC_P11_SkyGuide/airports-spain/gro.jpg",
-    "description": "Strategically located for visitors heading to the Costa Brava or the Pyrenees."
+    "description": "Strategically located for visitors heading to the Costa Brava or the Pyrenees.",
+    "type": "Regional Gateway",
+    "status": "Operational",
+    "traffic": {
+      "year": 2025,
+      "passengers": "2.1M",
+      "passengersRaw": 2185561
+    }
   },
   {
     "id": "7080777",
@@ -145,7 +206,14 @@
     "lat": "37.1887",
     "lng": "-3.7774",
     "image": "https://res.cloudinary.com/djjxjezsu/image/upload/v1776674054/RTC_P11_SkyGuide/airports-spain/grx.jpg",
-    "description": "Providing access to the historic city of Granada and its famous Alhambra."
+    "description": "Providing access to the historic city of Granada and its famous Alhambra.",
+    "type": "Domestic Gateway",
+    "status": "Operational",
+    "traffic": {
+      "year": 2025,
+      "passengers": "1.1M",
+      "passengersRaw": 1152872
+    }
   },
   {
     "id": "7081113",
@@ -155,7 +223,14 @@
     "lat": "42.0808",
     "lng": "-0.3236",
     "image": "https://res.cloudinary.com/djjxjezsu/image/upload/v1776674057/RTC_P11_SkyGuide/airports-spain/hsk.jpg",
-    "description": "Located in Aragon, this airport is the gateway to the Spanish Pyrenees."
+    "description": "Located in Aragon, this airport is the gateway to the Spanish Pyrenees.",
+    "type": "General Aviation",
+    "status": "Operational",
+    "traffic": {
+      "year": 2025,
+      "passengers": "1.0K",
+      "passengersRaw": 1010
+    }
   },
   {
     "id": "7081216",
@@ -165,7 +240,14 @@
     "lat": "38.8729",
     "lng": "1.3731",
     "image": "https://res.cloudinary.com/djjxjezsu/image/upload/v1776674061/RTC_P11_SkyGuide/airports-spain/ibz.jpg",
-    "description": "One of the world's most famous airports for Balearic nightlife and tourism."
+    "description": "One of the world's most famous airports for Balearic nightlife and tourism.",
+    "type": "Island Gateway",
+    "status": "Operational",
+    "traffic": {
+      "year": 2025,
+      "passengers": "9.1M",
+      "passengersRaw": 9138224
+    }
   },
   {
     "id": "7081290",
@@ -175,7 +257,9 @@
     "lat": "41.7277",
     "lng": "0.5358",
     "image": "https://res.cloudinary.com/djjxjezsu/image/upload/v1776674065/RTC_P11_SkyGuide/airports-spain/ild.jpg",
-    "description": "The regional airport for Lleida, supporting commercial and technical flights."
+    "description": "The regional airport for Lleida, supporting commercial and technical flights.",
+    "type": "Regional Gateway",
+    "status": "Operational"
   },
   {
     "id": "7082262",
@@ -185,7 +269,14 @@
     "lat": "43.3021",
     "lng": "-8.3773",
     "image": "https://res.cloudinary.com/djjxjezsu/image/upload/v1776675180/RTC_P11_SkyGuide/airports-spain/lcg.jpg",
-    "description": "A vital transport link for the northern Galician coast."
+    "description": "A vital transport link for the northern Galician coast.",
+    "type": "Domestic Gateway",
+    "status": "Operational",
+    "traffic": {
+      "year": 2025,
+      "passengers": "1.2M",
+      "passengersRaw": 1292166
+    }
   },
   {
     "id": "7082307",
@@ -195,7 +286,14 @@
     "lat": "36.8439",
     "lng": "-2.3701",
     "image": "https://res.cloudinary.com/djjxjezsu/image/upload/v1776674072/RTC_P11_SkyGuide/airports-spain/lei.jpg",
-    "description": "Connecting southeastern Andalusia with major European cities."
+    "description": "Connecting southeastern Andalusia with major European cities.",
+    "type": "Regional Gateway",
+    "status": "Operational",
+    "traffic": {
+      "year": 2025,
+      "passengers": "801.6K",
+      "passengersRaw": 801689
+    }
   },
   {
     "id": "7082312",
@@ -205,7 +303,14 @@
     "lat": "42.5891",
     "lng": "-5.6552",
     "image": "https://res.cloudinary.com/djjxjezsu/image/upload/v1776675185/RTC_P11_SkyGuide/airports-spain/len.jpg",
-    "description": "An important regional hub for the province of León in Castile and León."
+    "description": "An important regional hub for the province of León in Castile and León.",
+    "type": "Domestic Gateway",
+    "status": "Operational",
+    "traffic": {
+      "year": 2025,
+      "passengers": "74.1K",
+      "passengersRaw": 74143
+    }
   },
   {
     "id": "7082319",
@@ -215,7 +320,9 @@
     "lat": "42.3386",
     "lng": "1.4091",
     "image": "https://res.cloudinary.com/djjxjezsu/image/upload/v1776674078/RTC_P11_SkyGuide/airports-spain/leu.jpg",
-    "description": "Located in the Pyrenees, it serves the border area near Andorra."
+    "description": "Located in the Pyrenees, it serves the border area near Andorra.",
+    "type": "General Aviation",
+    "status": "Operational"
   },
   {
     "id": "7082504",
@@ -230,7 +337,8 @@
     "status": "Operational",
     "traffic": {
       "year": 2025,
-      "passengers": "13.9M"
+      "passengers": "15.8M",
+      "passengersRaw": 15826553
     }
   },
   {
@@ -246,7 +354,8 @@
     "status": "Operational",
     "traffic": {
       "year": 2025,
-      "passengers": "60.2M"
+      "passengers": "68.1M",
+      "passengersRaw": 68179054
     }
   },
   {
@@ -257,7 +366,14 @@
     "lat": "39.8626",
     "lng": "4.2186",
     "image": "https://res.cloudinary.com/djjxjezsu/image/upload/v1776674091/RTC_P11_SkyGuide/airports-spain/mah.jpg",
-    "description": "The primary air terminal for the beautiful island of Menorca."
+    "description": "The primary air terminal for the beautiful island of Menorca.",
+    "type": "Island Gateway",
+    "status": "Operational",
+    "traffic": {
+      "year": 2025,
+      "passengers": "4.2M",
+      "passengersRaw": 4210152
+    }
   },
   {
     "id": "7082928",
@@ -267,7 +383,9 @@
     "lat": "37.7747",
     "lng": "-0.8124",
     "image": "https://res.cloudinary.com/djjxjezsu/image/upload/v1776674097/RTC_P11_SkyGuide/airports-spain/mjv.jpg",
-    "description": "A historic airport near the Mar Menor lagoon in Murcia."
+    "description": "A historic airport near the Mar Menor lagoon in Murcia.",
+    "type": "Military Airbase",
+    "status": "Closed to Commercial"
   },
   {
     "id": "7082970",
@@ -277,7 +395,14 @@
     "lat": "35.2798",
     "lng": "-2.9562",
     "image": "https://res.cloudinary.com/djjxjezsu/image/upload/v1776674105/RTC_P11_SkyGuide/airports-spain/mln.jpg",
-    "description": "The only airport serving the Spanish city of Melilla in North Africa."
+    "description": "The only airport serving the Spanish city of Melilla in North Africa.",
+    "type": "Domestic Gateway",
+    "status": "Operational",
+    "traffic": {
+      "year": 2025,
+      "passengers": "532.4K",
+      "passengersRaw": 532485
+    }
   },
   {
     "id": "7083704",
@@ -287,7 +412,14 @@
     "lat": "37.8420",
     "lng": "-4.8488",
     "image": "https://res.cloudinary.com/djjxjezsu/image/upload/v1776674111/RTC_P11_SkyGuide/airports-spain/odb.jpg",
-    "description": "An important regional airport for the city of Córdoba in Andalusia."
+    "description": "An important regional airport for the city of Córdoba in Andalusia.",
+    "type": "General Aviation",
+    "status": "Operational",
+    "traffic": {
+      "year": 2025,
+      "passengers": "30.7K",
+      "passengersRaw": 30797
+    }
   },
   {
     "id": "7083935",
@@ -297,7 +429,14 @@
     "lat": "43.5636",
     "lng": "-6.0346",
     "image": "https://res.cloudinary.com/djjxjezsu/image/upload/v1776675204/RTC_P11_SkyGuide/airports-spain/ovd.jpg",
-    "description": "The main airport for the green and mountainous region of Asturias."
+    "description": "The main airport for the green and mountainous region of Asturias.",
+    "type": "Regional Gateway",
+    "status": "Operational",
+    "traffic": {
+      "year": 2025,
+      "passengers": "2.0M",
+      "passengersRaw": 2051342
+    }
   },
   {
     "id": "7083968",
@@ -307,7 +446,9 @@
     "lat": "37.1746",
     "lng": "-5.6151",
     "image": "https://res.cloudinary.com/djjxjezsu/image/upload/v1776674119/RTC_P11_SkyGuide/airports-spain/ozp.jpg",
-    "description": "A major airbase near Seville used for military and support operations."
+    "description": "A major airbase near Seville used for military and support operations.",
+    "type": "Military Airbase",
+    "status": "Operational"
   },
   {
     "id": "7084225",
@@ -322,7 +463,8 @@
     "status": "Operational",
     "traffic": {
       "year": 2025,
-      "passengers": "31.1M"
+      "passengers": "33.8M",
+      "passengersRaw": 33806427
     }
   },
   {
@@ -333,7 +475,14 @@
     "lat": "42.7700",
     "lng": "-1.6465",
     "image": "https://res.cloudinary.com/djjxjezsu/image/upload/v1776675215/RTC_P11_SkyGuide/airports-spain/pna.jpg",
-    "description": "Providing regional connectivity to the historic Kingdom of Navarre."
+    "description": "Providing regional connectivity to the historic Kingdom of Navarre.",
+    "type": "Domestic Gateway",
+    "status": "Operational",
+    "traffic": {
+      "year": 2025,
+      "passengers": "233.3K",
+      "passengersRaw": 233398
+    }
   },
   {
     "id": "7084705",
@@ -343,7 +492,14 @@
     "lat": "41.1474",
     "lng": "1.1672",
     "image": "https://res.cloudinary.com/djjxjezsu/image/upload/v1776674134/RTC_P11_SkyGuide/airports-spain/reu.jpg",
-    "description": "A popular choice for travelers heading to the Costa Daurada and Tarragona."
+    "description": "A popular choice for travelers heading to the Costa Daurada and Tarragona.",
+    "type": "Regional Gateway",
+    "status": "Operational",
+    "traffic": {
+      "year": 2025,
+      "passengers": "1.3M",
+      "passengersRaw": 1336826
+    }
   },
   {
     "id": "7084727",
@@ -353,7 +509,14 @@
     "lat": "42.3576",
     "lng": "-3.6208",
     "image": "https://res.cloudinary.com/djjxjezsu/image/upload/v1776675399/RTC_P11_SkyGuide/airports-spain/rgs.jpg",
-    "description": "A modern regional airport in the center of the Castilian plateau."
+    "description": "A modern regional airport in the center of the Castilian plateau.",
+    "type": "Domestic Gateway",
+    "status": "Operational",
+    "traffic": {
+      "year": 2025,
+      "passengers": "2.4K",
+      "passengersRaw": 2463
+    }
   },
   {
     "id": "7084764",
@@ -363,7 +526,14 @@
     "lat": "42.4542",
     "lng": "-2.3217",
     "image": "https://res.cloudinary.com/djjxjezsu/image/upload/v1776675224/RTC_P11_SkyGuide/airports-spain/rjl.jpg",
-    "description": "Serving the famous wine-producing region of La Rioja."
+    "description": "Serving the famous wine-producing region of La Rioja.",
+    "type": "Domestic Gateway",
+    "status": "Operational",
+    "traffic": {
+      "year": 2025,
+      "passengers": "22.6K",
+      "passengersRaw": 22617
+    }
   },
   {
     "id": "7084806",
@@ -373,7 +543,14 @@
     "lat": "37.8030",
     "lng": "-1.1250",
     "image": "https://res.cloudinary.com/djjxjezsu/image/upload/v1776674150/RTC_P11_SkyGuide/airports-spain/rmu.jpg",
-    "description": "The primary international gateway for the Region of Murcia."
+    "description": "The primary international gateway for the Region of Murcia.",
+    "type": "Regional Gateway",
+    "status": "Operational",
+    "traffic": {
+      "year": 2025,
+      "passengers": "949K",
+      "passengersRaw": 949007
+    }
   },
   {
     "id": "7085011",
@@ -383,7 +560,14 @@
     "lat": "42.8963",
     "lng": "-8.4119",
     "image": "https://res.cloudinary.com/djjxjezsu/image/upload/v1776675407/RTC_P11_SkyGuide/airports-spain/scq.jpg",
-    "description": "The destination airport for thousands of pilgrims on the Way of Saint James."
+    "description": "The destination airport for thousands of pilgrims on the Way of Saint James.",
+    "type": "Regional Gateway",
+    "status": "Operational",
+    "traffic": {
+      "year": 2025,
+      "passengers": "3.1M",
+      "passengersRaw": 3120759
+    }
   },
   {
     "id": "7085035",
@@ -393,7 +577,14 @@
     "lat": "43.4271",
     "lng": "-3.8200",
     "image": "https://res.cloudinary.com/djjxjezsu/image/upload/v1776674155/RTC_P11_SkyGuide/airports-spain/sdr.jpg",
-    "description": "Located on the northern coast, it serves the beautiful Cantabria region."
+    "description": "Located on the northern coast, it serves the beautiful Cantabria region.",
+    "type": "Regional Gateway",
+    "status": "Operational",
+    "traffic": {
+      "year": 2025,
+      "passengers": "1.0M",
+      "passengersRaw": 1069390
+    }
   },
   {
     "id": "7085222",
@@ -403,7 +594,14 @@
     "lat": "40.9521",
     "lng": "-5.5019",
     "image": "https://res.cloudinary.com/djjxjezsu/image/upload/v1776675232/RTC_P11_SkyGuide/airports-spain/slm.jpg",
-    "description": "An important pilot training and regional transport hub in Salamanca."
+    "description": "An important pilot training and regional transport hub in Salamanca.",
+    "type": "General Aviation",
+    "status": "Operational",
+    "traffic": {
+      "year": 2025,
+      "passengers": "25.6K",
+      "passengersRaw": 25677
+    }
   },
   {
     "id": "7085315",
@@ -413,7 +611,14 @@
     "lat": "28.6265",
     "lng": "-17.7556",
     "image": "https://res.cloudinary.com/djjxjezsu/image/upload/v1776675162/RTC_P11_SkyGuide/airports-spain/spc.png",
-    "description": "The essential connection for the island of La Palma in the Atlantic."
+    "description": "The essential connection for the island of La Palma in the Atlantic.",
+    "type": "Island Gateway",
+    "status": "Operational",
+    "traffic": {
+      "year": 2025,
+      "passengers": "1.5M",
+      "passengersRaw": 1533355
+    }
   },
   {
     "id": "7085470",
@@ -423,7 +628,14 @@
     "lat": "37.4180",
     "lng": "-5.8931",
     "image": "https://res.cloudinary.com/djjxjezsu/image/upload/v1776674162/RTC_P11_SkyGuide/airports-spain/svq.webp",
-    "description": "A major southern hub serving the historic and cultural city of Seville."
+    "description": "A major southern hub serving the historic and cultural city of Seville.",
+    "type": "Regional Gateway",
+    "status": "Operational",
+    "traffic": {
+      "year": 2025,
+      "passengers": "9.6M",
+      "passengersRaw": 9686487
+    }
   },
   {
     "id": "7085691",
@@ -433,7 +645,14 @@
     "lat": "28.4827",
     "lng": "-16.3415",
     "image": "https://res.cloudinary.com/djjxjezsu/image/upload/v1776675579/RTC_P11_SkyGuide/airports-spain/tfn.jpg",
-    "description": "Mainly handling domestic and inter-island flights in Tenerife."
+    "description": "Mainly handling domestic and inter-island flights in Tenerife.",
+    "type": "Island Gateway",
+    "status": "Operational",
+    "traffic": {
+      "year": 2025,
+      "passengers": "7.1M",
+      "passengersRaw": 7174977
+    }
   },
   {
     "id": "7085693",
@@ -448,7 +667,8 @@
     "status": "Operational",
     "traffic": {
       "year": 2025,
-      "passengers": "12.3M"
+      "passengers": "13.9M",
+      "passengersRaw": 13969678
     }
   },
   {
@@ -459,7 +679,9 @@
     "lat": "40.4967",
     "lng": "-3.4475",
     "image": "https://res.cloudinary.com/djjxjezsu/image/upload/v1776675247/RTC_P11_SkyGuide/airports-spain/toj.jpg",
-    "description": "A major airbase used for government and military purposes in Madrid."
+    "description": "A major airbase used for government and military purposes in Madrid.",
+    "type": "Military Airbase",
+    "status": "Operational"
   },
   {
     "id": "7086311",
@@ -469,7 +691,14 @@
     "lat": "27.8148",
     "lng": "-17.8871",
     "image": "https://res.cloudinary.com/djjxjezsu/image/upload/v1776674174/RTC_P11_SkyGuide/airports-spain/vde.jpg",
-    "description": "The small but vital airport for the island of El Hierro."
+    "description": "The small but vital airport for the island of El Hierro.",
+    "type": "Domestic Island Gateway",
+    "status": "Operational",
+    "traffic": {
+      "year": 2025,
+      "passengers": "313.1K",
+      "passengersRaw": 313175
+    }
   },
   {
     "id": "7086333",
@@ -479,7 +708,14 @@
     "lat": "42.2287",
     "lng": "-8.6268",
     "image": "https://res.cloudinary.com/djjxjezsu/image/upload/v1776675259/RTC_P11_SkyGuide/airports-spain/vgo.jpg",
-    "description": "Connecting the industrial city of Vigo with major national cities."
+    "description": "Connecting the industrial city of Vigo with major national cities.",
+    "type": "Domestic Gateway",
+    "status": "Operational",
+    "traffic": {
+      "year": 2025,
+      "passengers": "1.1M",
+      "passengersRaw": 1114810
+    }
   },
   {
     "id": "7086356",
@@ -489,7 +725,14 @@
     "lat": "42.8828",
     "lng": "-2.8245",
     "image": "https://res.cloudinary.com/djjxjezsu/image/upload/v1776674180/RTC_P11_SkyGuide/airports-spain/vit.jpg",
-    "description": "A key logistics and cargo hub in the Basque Country."
+    "description": "A key logistics and cargo hub in the Basque Country.",
+    "type": "Cargo Hub",
+    "status": "Operational",
+    "traffic": {
+      "year": 2025,
+      "passengers": "307.1K",
+      "passengersRaw": 307163
+    }
   },
   {
     "id": "7086370",
@@ -504,7 +747,8 @@
     "status": "Operational",
     "traffic": {
       "year": 2025,
-      "passengers": "9.9M"
+      "passengers": "11.8M",
+      "passengersRaw": 11847527
     }
   },
   {
@@ -515,7 +759,14 @@
     "lat": "41.7061",
     "lng": "-4.8519",
     "image": "https://res.cloudinary.com/djjxjezsu/image/upload/v1776675602/RTC_P11_SkyGuide/airports-spain/vll.jpg",
-    "description": "The gateway for the province of Valladolid and central Castile."
+    "description": "The gateway for the province of Valladolid and central Castile.",
+    "type": "Domestic Gateway",
+    "status": "Operational",
+    "traffic": {
+      "year": 2025,
+      "passengers": "87.5K",
+      "passengersRaw": 87544
+    }
   },
   {
     "id": "7087011",
@@ -525,7 +776,14 @@
     "lat": "36.7446",
     "lng": "-6.0601",
     "image": "https://res.cloudinary.com/djjxjezsu/image/upload/v1776675602/RTC_P11_SkyGuide/airports-spain/xry.jpg",
-    "description": "The airport for the sherry region and the province of Cádiz."
+    "description": "The airport for the sherry region and the province of Cádiz.",
+    "type": "Regional Gateway",
+    "status": "Operational",
+    "traffic": {
+      "year": 2025,
+      "passengers": "884.5K",
+      "passengersRaw": 884539
+    }
   },
   {
     "id": "7087665",
@@ -535,7 +793,14 @@
     "lat": "41.6662",
     "lng": "-1.0416",
     "image": "https://res.cloudinary.com/djjxjezsu/image/upload/v1776675162/RTC_P11_SkyGuide/airports-spain/zaz.webp",
-    "description": "A major regional airport and strategic cargo hub in Aragon."
+    "description": "A major regional airport and strategic cargo hub in Aragon.",
+    "type": "Cargo Hub",
+    "status": "Operational",
+    "traffic": {
+      "year": 2025,
+      "passengers": "707.4K",
+      "passengersRaw": 707493
+    }
   },
   {
     "id": "7088110",
@@ -545,7 +810,9 @@
     "lat": "38.8564",
     "lng": "-3.9700",
     "image": "https://res.cloudinary.com/djjxjezsu/image/upload/v1776675613/RTC_P11_SkyGuide/airports-spain/cqm.jpg",
-    "description": "A large-scale logistics and commercial airport in central Spain."
+    "description": "A large-scale logistics and commercial airport in central Spain.",
+    "type": "Industrial / Storage",
+    "status": "Operational"
   },
   {
     "id": "7088239",
@@ -555,6 +822,8 @@
     "lat": "40.4118",
     "lng": "-1.2185",
     "image": "https://res.cloudinary.com/djjxjezsu/image/upload/v1776674214/RTC_P11_SkyGuide/airports-spain/tev.jpg",
-    "description": "Famous for being the largest aircraft storage and maintenance base in Europe."
+    "description": "Famous for being the largest aircraft storage and maintenance base in Europe.",
+    "type": "Industrial / Storage",
+    "status": "Operational"
   }
 ]
