@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './LiveFlights.css'
 import mockData from '../../data/flights-mock/flights-mock.json'
+import FlightRow from './FlightRow'
 
 const USE_REAL_API = false //! CAMBIAR A TRUE CUANDO QUERAMOS DEJAR DE USAR EL MOCK Y USAR LA API REAL.
 const API_KEY = import.meta.env.VITE_AVIATIONSTACK_KEY
@@ -24,7 +25,12 @@ const LiveFlights = ({ airport }) => {
       setLoading(true)
 
       if (!USE_REAL_API) {
-        setFlights(mockData.data)
+        const sortedFlights = [...mockData.data].sort((a, b) => {
+          const aVal = a.departure.scheduled.split('T')[1].slice(0, 5)
+          const bVal = b.departure.scheduled.split('T')[1].slice(0, 5)
+          return aVal.localeCompare(bVal) //? Como estamos comparando strings, necesitamos el método localCompare()
+        })
+        setFlights(sortedFlights)
         setLoading(false)
         return
       }
@@ -34,7 +40,24 @@ const LiveFlights = ({ airport }) => {
           `https://api.aviationstack.com/v1/flights?access_key=${API_KEY}&dep_iata=${airport.iata}`
         )
         const result = await response.json()
-        setFlights(result.data)
+        const allFlights = result.data || []
+
+        const now = new Date()
+        const currentTime = `${now.getHours().toString().padStart(2, '0')}:${now.getMinutes().toString().padStart(2, '0')}`
+
+        let filteredFlights = allFlights.filter((f) => {
+          const flightOnTime =
+            f.departure?.scheduled?.split('T')[1]?.slice(0, 5) || ''
+          return flightOnTime >= currentTime
+          // Podemos filtrar para que se muestren los vuelos posteriores a la hora de la petición, pero, debido a las limitaciones que tiene la API (100 vuelos por petición) en su versión básica, no podemos asegurar que los vuelos que devuelva sean justo los próximos por salir.
+        })
+
+        const sortedFlights = [...filteredFlights].sort((a, b) => {
+          const aVal = a.departure?.scheduled?.split('T')[1].slice(0, 5)
+          const bVal = b.departure?.scheduled?.split('T')[1].slice(0, 5)
+          return aVal.localeCompare(bVal) //? Como estamos comparando strings, necesitamos el método localCompare()
+        })
+        setFlights(sortedFlights)
         setLoading(false)
       } catch (error) {
         console.error('Error en la API real:', error.message)
@@ -55,7 +78,7 @@ const LiveFlights = ({ airport }) => {
 
   const filteredFlights = flights
     .filter((f) => {
-      if (filter === 'all') return true //? el "filter" dentro de los if hace referencia al estado filter
+      if (filter === 'all') return true //? estos "filter" dentro de los if hacen referencia al estado filter
       if (filter === 'active') return f.flight_status === 'active'
       if (filter === 'scheduled') return f.flight_status === 'scheduled'
       if (filter === 'delayed') return f.departure?.delay > 0
@@ -110,53 +133,12 @@ const LiveFlights = ({ airport }) => {
 
         <ul>
           {filteredFlights?.map((f, index) => (
-            <li key={index}>
-              {isMobile && (
-                <div className='flights-header mobile-only'>
-                  <span>FLIGHT</span>
-                  <span>ROUTE</span>
-                  <span>TIME</span>
-                  <span>STATUS</span>
-                  <span>NOTES</span>
-                </div>
-              )}
-
-              <div className='flights-info'>
-                <span className='flight-number'>{f.flight?.number}</span>
-                <span className='flight-dest'>
-                  {' '}
-                  <abbr title={airport.name} className='iata-info'>
-                    {airport.iata}
-                  </abbr>{' '}
-                  ➡️{' '}
-                  <abbr
-                    title={f.arrival?.airport || 'Unknown City'}
-                    className='iata-info'
-                  >
-                    {f.arrival?.iata}
-                  </abbr>
-                </span>
-                <span className='flight-time'>
-                  {f.departure?.scheduled
-                    ? `${f.departure.scheduled.split('T')[1].slice(0, 5)}h`
-                    : '--:--'}
-                </span>
-                <span className={`status status-${f.flight_status}`}>
-                  {f.flight_status}
-                </span>
-                <span
-                  className={
-                    f.departure?.delay > 0
-                      ? 'flight-delay-time delayed'
-                      : 'flight-delay-time'
-                  }
-                >
-                  {f.departure?.delay > 0
-                    ? `${f.departure?.delay}min delayed`
-                    : 'On time'}
-                </span>
-              </div>
-            </li>
+            <FlightRow
+              key={`${f.flight?.number}-${index}`}
+              flight={f}
+              airport={airport}
+              isMobile={isMobile}
+            />
           ))}
           {filteredFlights.length === 0 && (
             <p>No flights found for this category.</p>
