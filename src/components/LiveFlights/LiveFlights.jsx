@@ -13,7 +13,7 @@ const LiveFlights = ({ airport }) => {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 769)
 
   useEffect(() => {
-    //! Sin este useEffect el estado isMobile solo se calcularia una vez (cuando cargásemos la página)
+    //! Sin este useEffect añadiriamos en bucle distintos EventListeners con cada "resize" de la pantalla, ya que provocaría un nuevo render del componente. En cambio, si lo encapsulamos dentro de useEffect solo añadiremos 1 listener al renderizar el componente.
     const handleResize = () => setIsMobile(window.innerWidth < 769)
     window.addEventListener('resize', handleResize)
     return () => window.removeEventListener('resize', handleResize) //! Sin este return de limpieza, al cerrar el componente LiveFlights (cambiando por ejemplo de sección o página) el listener se quedaria escuchando indefinidamente el resize de una ventana que ya no existe.
