@@ -12,6 +12,7 @@
   gap: var(--rtc-gap-xs);
   padding-top: var(--rtc-padding-m);
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  width: 100%;
 }
 
 .airport-card:hover {
